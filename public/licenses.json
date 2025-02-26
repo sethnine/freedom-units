@@ -1,0 +1,20 @@
+{
+    "next@15.1.7": {
+        "licenses": "MIT",
+        "repository": "https://github.com/vercel/next.js",
+        "licenseUrl": "https://github.com/vercel/next.js/raw/master/license.md",
+        "parents": "freedom-units"
+    },
+    "react-dom@19.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
+        "parents": "freedom-units"
+    },
+    "react@19.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
+        "parents": "freedom-units"
+    }
+}

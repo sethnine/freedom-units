@@ -1,0 +1,3755 @@
+[
+  {
+    "name": "@alloc/quick-lru@5.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@alloc\\quick-lru",
+    "repository": "https://github.com/sindresorhus/quick-lru",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@alloc\\quick-lru\\license"
+  },
+  {
+    "name": "@cspotcode/source-map-support@0.8.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@cspotcode\\source-map-support",
+    "repository": "https://github.com/cspotcode/node-source-map-support",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@cspotcode\\source-map-support\\LICENSE.md"
+  },
+  {
+    "name": "@eslint-community/eslint-utils@4.4.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\eslint-utils",
+    "repository": "https://github.com/eslint-community/eslint-utils",
+    "publisher": "Toru Nagashima",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\eslint-utils\\LICENSE"
+  },
+  {
+    "name": "@eslint-community/regexpp@4.12.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\regexpp",
+    "repository": "https://github.com/eslint-community/regexpp",
+    "publisher": "Toru Nagashima",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\regexpp\\LICENSE"
+  },
+  {
+    "name": "@eslint/config-array@0.19.2",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\config-array",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\config-array\\LICENSE"
+  },
+  {
+    "name": "@eslint/core@0.12.0",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\core",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\core\\LICENSE"
+  },
+  {
+    "name": "@eslint/eslintrc@3.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\eslintrc",
+    "repository": "https://github.com/eslint/eslintrc",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\eslintrc\\LICENSE"
+  },
+  {
+    "name": "@eslint/js@9.21.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\js",
+    "repository": "https://github.com/eslint/eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\js\\LICENSE"
+  },
+  {
+    "name": "@eslint/object-schema@2.1.6",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\object-schema",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\object-schema\\LICENSE"
+  },
+  {
+    "name": "@eslint/plugin-kit@0.2.7",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\plugin-kit",
+    "repository": "https://github.com/eslint/rewrite",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint\\plugin-kit\\LICENSE"
+  },
+  {
+    "name": "@humanfs/core@0.19.1",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\core",
+    "repository": "https://github.com/humanwhocodes/humanfs",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\core\\LICENSE"
+  },
+  {
+    "name": "@humanfs/node@0.16.6",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\node",
+    "repository": "https://github.com/humanwhocodes/humanfs",
+    "publisher": "Nicholas C. Zakas",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\node\\LICENSE"
+  },
+  {
+    "name": "@humanwhocodes/module-importer@1.0.1",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanwhocodes\\module-importer",
+    "repository": "https://github.com/humanwhocodes/module-importer",
+    "publisher": "Nicholas C. Zaks",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanwhocodes\\module-importer\\LICENSE"
+  },
+  {
+    "name": "@humanwhocodes/retry@0.3.1",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\node\\node_modules\\@humanwhocodes\\retry",
+    "repository": "https://github.com/humanwhocodes/retry",
+    "publisher": "Nicholas C. Zaks",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanfs\\node\\node_modules\\@humanwhocodes\\retry\\LICENSE"
+  },
+  {
+    "name": "@humanwhocodes/retry@0.4.2",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanwhocodes\\retry",
+    "repository": "https://github.com/humanwhocodes/retry",
+    "publisher": "Nicholas C. Zaks",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@humanwhocodes\\retry\\LICENSE"
+  },
+  {
+    "name": "@img/sharp-win32-x64@0.33.5",
+    "licenses": "Apache-2.0 AND LGPL-3.0-or-later",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@img\\sharp-win32-x64",
+    "repository": "https://github.com/lovell/sharp",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@img\\sharp-win32-x64\\LICENSE"
+  },
+  {
+    "name": "@isaacs/cliui@8.0.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@isaacs\\cliui",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@isaacs\\cliui\\LICENSE.txt"
+  },
+  {
+    "name": "@jridgewell/gen-mapping@0.3.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\gen-mapping",
+    "repository": "https://github.com/jridgewell/gen-mapping",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\gen-mapping\\LICENSE"
+  },
+  {
+    "name": "@jridgewell/resolve-uri@3.1.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\resolve-uri",
+    "repository": "https://github.com/jridgewell/resolve-uri",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\resolve-uri\\LICENSE"
+  },
+  {
+    "name": "@jridgewell/set-array@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\set-array",
+    "repository": "https://github.com/jridgewell/set-array",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\set-array\\LICENSE"
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec@1.5.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\sourcemap-codec",
+    "repository": "https://github.com/jridgewell/sourcemap-codec",
+    "publisher": "Rich Harris",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\sourcemap-codec\\LICENSE"
+  },
+  {
+    "name": "@jridgewell/trace-mapping@0.3.25",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\trace-mapping",
+    "repository": "https://github.com/jridgewell/trace-mapping",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@jridgewell\\trace-mapping\\LICENSE"
+  },
+  {
+    "name": "@jridgewell/trace-mapping@0.3.9",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@cspotcode\\source-map-support\\node_modules\\@jridgewell\\trace-mapping",
+    "repository": "https://github.com/jridgewell/trace-mapping",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@cspotcode\\source-map-support\\node_modules\\@jridgewell\\trace-mapping\\LICENSE"
+  },
+  {
+    "name": "@next/env@15.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\env",
+    "repository": "https://github.com/vercel/next.js",
+    "publisher": "Next.js Team",
+    "email": "support@vercel.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\env\\README.md"
+  },
+  {
+    "name": "@next/eslint-plugin-next@15.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\eslint-plugin-next",
+    "repository": "https://github.com/vercel/next.js",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\eslint-plugin-next\\README.md"
+  },
+  {
+    "name": "@next/swc-win32-x64-msvc@15.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\swc-win32-x64-msvc",
+    "repository": "https://github.com/vercel/next.js",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@next\\swc-win32-x64-msvc\\README.md"
+  },
+  {
+    "name": "@nodelib/fs.scandir@2.1.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.scandir",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.scandir\\LICENSE"
+  },
+  {
+    "name": "@nodelib/fs.stat@2.0.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.stat",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.stat\\LICENSE"
+  },
+  {
+    "name": "@nodelib/fs.walk@1.2.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.walk",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nodelib\\fs.walk\\LICENSE"
+  },
+  {
+    "name": "@nolyfill/is-core-module@1.0.39",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nolyfill\\is-core-module",
+    "repository": "https://github.com/SukkaW/nolyfill",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@nolyfill\\is-core-module\\LICENSE"
+  },
+  {
+    "name": "@pkgjs/parseargs@0.11.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@pkgjs\\parseargs",
+    "repository": "https://github.com/pkgjs/parseargs",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@pkgjs\\parseargs\\LICENSE"
+  },
+  {
+    "name": "@rtsao/scc@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@rtsao\\scc",
+    "repository": "https://github.com/rtsao/scc",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@rtsao\\scc\\LICENSE"
+  },
+  {
+    "name": "@rushstack/eslint-patch@1.10.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@rushstack\\eslint-patch",
+    "repository": "https://github.com/microsoft/rushstack",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@rushstack\\eslint-patch\\LICENSE"
+  },
+  {
+    "name": "@swc/counter@0.1.3",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@swc\\counter",
+    "repository": "https://github.com/swc-project/pkgs",
+    "publisher": "강동윤",
+    "email": "kdy1997.dev@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@swc\\counter\\README.md"
+  },
+  {
+    "name": "@swc/helpers@0.5.15",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@swc\\helpers",
+    "repository": "https://github.com/swc-project/swc",
+    "publisher": "강동윤",
+    "email": "kdy1997.dev@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@swc\\helpers\\LICENSE"
+  },
+  {
+    "name": "@tailwindcss/typography@0.5.16",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tailwindcss\\typography",
+    "repository": "https://github.com/tailwindlabs/tailwindcss-typography",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tailwindcss\\typography\\LICENSE"
+  },
+  {
+    "name": "@tsconfig/node10@1.0.11",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node10",
+    "repository": "https://github.com/tsconfig/bases",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node10\\LICENSE"
+  },
+  {
+    "name": "@tsconfig/node12@1.0.11",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node12",
+    "repository": "https://github.com/tsconfig/bases",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node12\\LICENSE"
+  },
+  {
+    "name": "@tsconfig/node14@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node14",
+    "repository": "https://github.com/tsconfig/bases",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node14\\LICENSE"
+  },
+  {
+    "name": "@tsconfig/node16@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node16",
+    "repository": "https://github.com/tsconfig/bases",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tsconfig\\node16\\LICENSE"
+  },
+  {
+    "name": "@types/estree@1.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\estree",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\estree\\LICENSE"
+  },
+  {
+    "name": "@types/json-schema@7.0.15",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\json-schema",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\json-schema\\LICENSE"
+  },
+  {
+    "name": "@types/json5@0.0.29",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\json5",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "publisher": "Jason Swearingen",
+    "email": "https://jasonswearingen.github.io",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\json5\\README.md"
+  },
+  {
+    "name": "@types/node@20.17.19",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\node",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\node\\LICENSE"
+  },
+  {
+    "name": "@types/react-dom@19.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\react-dom",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\react-dom\\LICENSE"
+  },
+  {
+    "name": "@types/react@19.0.10",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\react",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@types\\react\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/eslint-plugin@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\eslint-plugin",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\eslint-plugin\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/parser@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\parser",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\parser\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/scope-manager@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\scope-manager",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\scope-manager\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/type-utils@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\type-utils",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\type-utils\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/types@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\types",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\types\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/typescript-estree@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/utils@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\utils",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\utils\\LICENSE"
+  },
+  {
+    "name": "@typescript-eslint/visitor-keys@8.24.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\visitor-keys",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\visitor-keys\\LICENSE"
+  },
+  {
+    "name": "abbrev@1.1.1",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\abbrev",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\abbrev\\LICENSE"
+  },
+  {
+    "name": "acorn-jsx@5.3.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn-jsx",
+    "repository": "https://github.com/acornjs/acorn-jsx",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn-jsx\\LICENSE"
+  },
+  {
+    "name": "acorn-walk@8.3.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn-walk",
+    "repository": "https://github.com/acornjs/acorn",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn-walk\\LICENSE"
+  },
+  {
+    "name": "acorn@8.14.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn",
+    "repository": "https://github.com/acornjs/acorn",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\acorn\\LICENSE"
+  },
+  {
+    "name": "ajv@6.12.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ajv",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ajv\\LICENSE"
+  },
+  {
+    "name": "ansi-regex@5.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\ansi-regex",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\ansi-regex\\license"
+  },
+  {
+    "name": "ansi-regex@6.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ansi-regex",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ansi-regex\\license"
+  },
+  {
+    "name": "ansi-styles@3.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\ansi-styles",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\ansi-styles\\license"
+  },
+  {
+    "name": "ansi-styles@4.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ansi-styles",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ansi-styles\\license"
+  },
+  {
+    "name": "ansi-styles@6.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi\\node_modules\\ansi-styles",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi\\node_modules\\ansi-styles\\license"
+  },
+  {
+    "name": "any-promise@1.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\any-promise",
+    "repository": "https://github.com/kevinbeaty/any-promise",
+    "publisher": "Kevin Beaty",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\any-promise\\LICENSE"
+  },
+  {
+    "name": "anymatch@3.1.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\anymatch",
+    "repository": "https://github.com/micromatch/anymatch",
+    "publisher": "Elan Shanker",
+    "url": "https://github.com/es128",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\anymatch\\LICENSE"
+  },
+  {
+    "name": "arg@4.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-node\\node_modules\\arg",
+    "repository": "https://github.com/zeit/arg",
+    "publisher": "Josh Junon",
+    "email": "junon@zeit.co",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-node\\node_modules\\arg\\LICENSE.md"
+  },
+  {
+    "name": "arg@5.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\arg",
+    "repository": "https://github.com/vercel/arg",
+    "publisher": "Josh Junon",
+    "email": "junon@wavetilt.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\arg\\LICENSE.md"
+  },
+  {
+    "name": "argparse@2.0.1",
+    "licenses": "Python-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\argparse",
+    "repository": "https://github.com/nodeca/argparse",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\argparse\\LICENSE"
+  },
+  {
+    "name": "aria-query@5.3.2",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\aria-query",
+    "repository": "https://github.com/A11yance/aria-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\aria-query\\LICENSE"
+  },
+  {
+    "name": "array-buffer-byte-length@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-buffer-byte-length",
+    "repository": "https://github.com/inspect-js/array-buffer-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-buffer-byte-length\\LICENSE"
+  },
+  {
+    "name": "array-find-index@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-find-index",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-find-index\\license"
+  },
+  {
+    "name": "array-includes@3.1.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-includes",
+    "repository": "https://github.com/es-shims/array-includes",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array-includes\\LICENSE"
+  },
+  {
+    "name": "array.prototype.findlast@1.2.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.findlast",
+    "repository": "https://github.com/es-shims/Array.prototype.findLast",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.findlast\\LICENSE"
+  },
+  {
+    "name": "array.prototype.findlastindex@1.2.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.findlastindex",
+    "repository": "https://github.com/es-shims/Array.prototype.findLastIndex",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.findlastindex\\LICENSE"
+  },
+  {
+    "name": "array.prototype.flat@1.3.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.flat",
+    "repository": "https://github.com/es-shims/Array.prototype.flat",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.flat\\LICENSE"
+  },
+  {
+    "name": "array.prototype.flatmap@1.3.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.flatmap",
+    "repository": "https://github.com/es-shims/Array.prototype.flatMap",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.flatmap\\LICENSE"
+  },
+  {
+    "name": "array.prototype.tosorted@1.1.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.tosorted",
+    "repository": "https://github.com/es-shims/Array.prototype.toSorted",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\array.prototype.tosorted\\LICENSE"
+  },
+  {
+    "name": "arraybuffer.prototype.slice@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\arraybuffer.prototype.slice",
+    "repository": "https://github.com/es-shims/ArrayBuffer.prototype.slice",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\arraybuffer.prototype.slice\\LICENSE"
+  },
+  {
+    "name": "asap@2.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\asap",
+    "repository": "https://github.com/kriskowal/asap",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\asap\\LICENSE.md"
+  },
+  {
+    "name": "ast-types-flow@0.0.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ast-types-flow",
+    "repository": "https://github.com/kyldvs/ast-types-flow",
+    "publisher": "kyldvs",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ast-types-flow\\LICENSE"
+  },
+  {
+    "name": "async-function@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\async-function",
+    "repository": "https://github.com/ljharb/async-function",
+    "publisher": "Jordan Harbamd",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\async-function\\LICENSE"
+  },
+  {
+    "name": "available-typed-arrays@1.0.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\available-typed-arrays",
+    "repository": "https://github.com/inspect-js/available-typed-arrays",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\available-typed-arrays\\LICENSE"
+  },
+  {
+    "name": "axe-core@4.10.2",
+    "licenses": "MPL-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\axe-core",
+    "repository": "https://github.com/dequelabs/axe-core",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\axe-core\\LICENSE"
+  },
+  {
+    "name": "axobject-query@4.1.0",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\axobject-query",
+    "repository": "https://github.com/A11yance/axobject-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\axobject-query\\LICENSE"
+  },
+  {
+    "name": "balanced-match@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\balanced-match",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\balanced-match\\LICENSE.md"
+  },
+  {
+    "name": "binary-extensions@2.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\binary-extensions",
+    "repository": "https://github.com/sindresorhus/binary-extensions",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\binary-extensions\\license"
+  },
+  {
+    "name": "brace-expansion@1.1.11",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\brace-expansion",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\brace-expansion\\LICENSE"
+  },
+  {
+    "name": "brace-expansion@2.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\brace-expansion",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\brace-expansion\\LICENSE"
+  },
+  {
+    "name": "braces@3.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\braces",
+    "repository": "https://github.com/micromatch/braces",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\braces\\LICENSE"
+  },
+  {
+    "name": "busboy@1.6.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\busboy",
+    "repository": "https://github.com/mscdex/busboy",
+    "publisher": "Brian White",
+    "email": "mscdex@mscdex.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\busboy\\LICENSE"
+  },
+  {
+    "name": "call-bind-apply-helpers@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bind-apply-helpers",
+    "repository": "https://github.com/ljharb/call-bind-apply-helpers",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bind-apply-helpers\\LICENSE"
+  },
+  {
+    "name": "call-bind@1.0.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bind",
+    "repository": "https://github.com/ljharb/call-bind",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bind\\LICENSE"
+  },
+  {
+    "name": "call-bound@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bound",
+    "repository": "https://github.com/ljharb/call-bound",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\call-bound\\LICENSE"
+  },
+  {
+    "name": "callsites@3.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\callsites",
+    "repository": "https://github.com/sindresorhus/callsites",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\callsites\\license"
+  },
+  {
+    "name": "camelcase-css@2.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\camelcase-css",
+    "repository": "https://github.com/stevenvachon/camelcase-css",
+    "publisher": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "https://www.svachon.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\camelcase-css\\license"
+  },
+  {
+    "name": "caniuse-lite@1.0.30001700",
+    "licenses": "CC-BY-4.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\caniuse-lite",
+    "repository": "https://github.com/browserslist/caniuse-lite",
+    "publisher": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\caniuse-lite\\LICENSE"
+  },
+  {
+    "name": "chalk@2.4.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\chalk",
+    "repository": "https://github.com/chalk/chalk",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\chalk\\license"
+  },
+  {
+    "name": "chalk@4.1.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\chalk",
+    "repository": "https://github.com/chalk/chalk",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\chalk\\license"
+  },
+  {
+    "name": "chokidar@3.6.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\chokidar",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\chokidar\\LICENSE"
+  },
+  {
+    "name": "client-only@0.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\client-only"
+  },
+  {
+    "name": "color-convert@1.9.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\color-convert",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\color-convert\\LICENSE"
+  },
+  {
+    "name": "color-convert@2.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-convert",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-convert\\LICENSE"
+  },
+  {
+    "name": "color-name@1.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\color-name",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\color-name\\LICENSE"
+  },
+  {
+    "name": "color-name@1.1.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-name",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-name\\LICENSE"
+  },
+  {
+    "name": "color-string@1.9.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-string",
+    "repository": "https://github.com/Qix-/color-string",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color-string\\LICENSE"
+  },
+  {
+    "name": "color@4.2.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color",
+    "repository": "https://github.com/Qix-/color",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\color\\LICENSE"
+  },
+  {
+    "name": "commander@4.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\commander",
+    "repository": "https://github.com/tj/commander.js",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\commander\\LICENSE"
+  },
+  {
+    "name": "concat-map@0.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\concat-map",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\concat-map\\LICENSE"
+  },
+  {
+    "name": "create-require@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\create-require",
+    "repository": "https://github.com/nuxt-contrib/create-require",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\create-require\\LICENSE"
+  },
+  {
+    "name": "cross-spawn@7.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\cross-spawn",
+    "repository": "https://github.com/moxystudio/node-cross-spawn",
+    "publisher": "André Cruz",
+    "email": "andre@moxy.studio",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\cross-spawn\\LICENSE"
+  },
+  {
+    "name": "cssesc@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\cssesc",
+    "repository": "https://github.com/mathiasbynens/cssesc",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\cssesc\\LICENSE-MIT.txt"
+  },
+  {
+    "name": "csstype@3.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\csstype",
+    "repository": "https://github.com/frenic/csstype",
+    "publisher": "Fredrik Nicol",
+    "email": "fredrik.nicol@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\csstype\\LICENSE"
+  },
+  {
+    "name": "damerau-levenshtein@1.0.8",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\damerau-levenshtein",
+    "repository": "https://github.com/tad-lispy/node-damerau-levenshtein",
+    "publisher": "The Spanish Inquisition",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\damerau-levenshtein\\LICENSE"
+  },
+  {
+    "name": "data-view-buffer@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-buffer",
+    "repository": "https://github.com/inspect-js/data-view-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-buffer\\LICENSE"
+  },
+  {
+    "name": "data-view-byte-length@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-byte-length",
+    "repository": "https://github.com/inspect-js/data-view-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-byte-length\\LICENSE"
+  },
+  {
+    "name": "data-view-byte-offset@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-byte-offset",
+    "repository": "https://github.com/inspect-js/data-view-byte-offset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\data-view-byte-offset\\LICENSE"
+  },
+  {
+    "name": "debug@3.2.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\debug",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\debug\\LICENSE"
+  },
+  {
+    "name": "debug@4.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\debug",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "url": "https://github.com/qix-",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\debug\\LICENSE"
+  },
+  {
+    "name": "debuglog@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\debuglog",
+    "repository": "https://github.com/sam-github/node-debuglog",
+    "publisher": "Sam Roberts",
+    "email": "sam@strongloop.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\debuglog\\LICENSE"
+  },
+  {
+    "name": "deep-is@0.1.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\deep-is",
+    "repository": "https://github.com/thlorenz/deep-is",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\deep-is\\LICENSE"
+  },
+  {
+    "name": "define-data-property@1.1.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\define-data-property",
+    "repository": "https://github.com/ljharb/define-data-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\define-data-property\\LICENSE"
+  },
+  {
+    "name": "define-properties@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\define-properties",
+    "repository": "https://github.com/ljharb/define-properties",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\define-properties\\LICENSE"
+  },
+  {
+    "name": "detect-libc@2.0.3",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\detect-libc",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\detect-libc\\LICENSE"
+  },
+  {
+    "name": "dezalgo@1.0.4",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dezalgo",
+    "repository": "https://github.com/npm/dezalgo",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dezalgo\\LICENSE"
+  },
+  {
+    "name": "didyoumean@1.2.2",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\didyoumean",
+    "repository": "https://github.com/dcporter/didyoumean.js",
+    "publisher": "Dave Porter",
+    "email": "dcporter@gmail.com",
+    "url": "http://dcporter.net/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\didyoumean\\LICENSE"
+  },
+  {
+    "name": "diff@4.0.2",
+    "licenses": "BSD-3-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\diff",
+    "repository": "https://github.com/kpdecker/jsdiff",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\diff\\LICENSE"
+  },
+  {
+    "name": "dlv@1.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dlv",
+    "repository": "https://github.com/developit/dlv",
+    "publisher": "Jason Miller",
+    "email": "jason@developit.ca",
+    "url": "http://jasonformat.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dlv\\README.md"
+  },
+  {
+    "name": "doctrine@2.1.0",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\doctrine",
+    "repository": "https://github.com/eslint/doctrine",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\doctrine\\LICENSE"
+  },
+  {
+    "name": "dunder-proto@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dunder-proto",
+    "repository": "https://github.com/es-shims/dunder-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\dunder-proto\\LICENSE"
+  },
+  {
+    "name": "eastasianwidth@0.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eastasianwidth",
+    "repository": "https://github.com/komagata/eastasianwidth",
+    "publisher": "Masaki Komagata",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eastasianwidth\\README.md"
+  },
+  {
+    "name": "emoji-regex@8.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\emoji-regex",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\emoji-regex\\LICENSE-MIT.txt"
+  },
+  {
+    "name": "emoji-regex@9.2.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\emoji-regex",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\emoji-regex\\LICENSE-MIT.txt"
+  },
+  {
+    "name": "enhanced-resolve@5.18.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\enhanced-resolve",
+    "repository": "https://github.com/webpack/enhanced-resolve",
+    "publisher": "Tobias Koppers @sokra",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\enhanced-resolve\\LICENSE"
+  },
+  {
+    "name": "es-abstract@1.23.9",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-abstract",
+    "repository": "https://github.com/ljharb/es-abstract",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-abstract\\LICENSE"
+  },
+  {
+    "name": "es-define-property@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-define-property",
+    "repository": "https://github.com/ljharb/es-define-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-define-property\\LICENSE"
+  },
+  {
+    "name": "es-errors@1.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-errors",
+    "repository": "https://github.com/ljharb/es-errors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-errors\\LICENSE"
+  },
+  {
+    "name": "es-iterator-helpers@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-iterator-helpers",
+    "repository": "https://github.com/es-shims/iterator-helpers",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-iterator-helpers\\LICENSE"
+  },
+  {
+    "name": "es-object-atoms@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-object-atoms",
+    "repository": "https://github.com/ljharb/es-object-atoms",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-object-atoms\\LICENSE"
+  },
+  {
+    "name": "es-set-tostringtag@2.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-set-tostringtag",
+    "repository": "https://github.com/es-shims/es-set-tostringtag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-set-tostringtag\\LICENSE"
+  },
+  {
+    "name": "es-shim-unscopables@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-shim-unscopables",
+    "repository": "https://github.com/ljharb/es-shim-unscopables",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-shim-unscopables\\LICENSE"
+  },
+  {
+    "name": "es-to-primitive@1.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-to-primitive",
+    "repository": "https://github.com/ljharb/es-to-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\es-to-primitive\\LICENSE"
+  },
+  {
+    "name": "escape-string-regexp@1.0.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\escape-string-regexp",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\escape-string-regexp\\license"
+  },
+  {
+    "name": "escape-string-regexp@4.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\escape-string-regexp",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\escape-string-regexp\\license"
+  },
+  {
+    "name": "eslint-config-next@15.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-config-next",
+    "repository": "https://github.com/vercel/next.js"
+  },
+  {
+    "name": "eslint-import-resolver-node@0.3.9",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-import-resolver-node",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "url": "me@benmosher.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-import-resolver-node\\LICENSE"
+  },
+  {
+    "name": "eslint-import-resolver-typescript@3.8.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-import-resolver-typescript",
+    "repository": "https://github.com/import-js/eslint-import-resolver-typescript",
+    "publisher": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-import-resolver-typescript\\LICENSE"
+  },
+  {
+    "name": "eslint-module-utils@2.12.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-module-utils",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "email": "me@benmosher.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-module-utils\\LICENSE"
+  },
+  {
+    "name": "eslint-plugin-import@2.31.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-import",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "email": "me@benmosher.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-import\\LICENSE"
+  },
+  {
+    "name": "eslint-plugin-jsx-a11y@6.10.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-jsx-a11y",
+    "repository": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+    "publisher": "Ethan Cohen",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-jsx-a11y\\LICENSE.md"
+  },
+  {
+    "name": "eslint-plugin-react-hooks@5.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react-hooks",
+    "repository": "https://github.com/facebook/react",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react-hooks\\LICENSE"
+  },
+  {
+    "name": "eslint-plugin-react@7.37.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react",
+    "repository": "https://github.com/jsx-eslint/eslint-plugin-react",
+    "publisher": "Yannick Croissant",
+    "email": "yannick.croissant+npm@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react\\LICENSE"
+  },
+  {
+    "name": "eslint-scope@8.2.0",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-scope",
+    "repository": "https://github.com/eslint/js",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-scope\\LICENSE"
+  },
+  {
+    "name": "eslint-visitor-keys@3.4.3",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\eslint-utils\\node_modules\\eslint-visitor-keys",
+    "repository": "https://github.com/eslint/eslint-visitor-keys",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@eslint-community\\eslint-utils\\node_modules\\eslint-visitor-keys\\LICENSE"
+  },
+  {
+    "name": "eslint-visitor-keys@4.2.0",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-visitor-keys",
+    "repository": "https://github.com/eslint/js",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-visitor-keys\\LICENSE"
+  },
+  {
+    "name": "eslint@9.21.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint",
+    "repository": "https://github.com/eslint/eslint",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint\\LICENSE"
+  },
+  {
+    "name": "espree@10.3.0",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\espree",
+    "repository": "https://github.com/eslint/js",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\espree\\LICENSE"
+  },
+  {
+    "name": "esquery@1.6.0",
+    "licenses": "BSD-3-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esquery",
+    "repository": "https://github.com/estools/esquery",
+    "publisher": "Joel Feenstra",
+    "email": "jrfeenst+esquery@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esquery\\license.txt"
+  },
+  {
+    "name": "esrecurse@4.3.0",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esrecurse",
+    "repository": "https://github.com/estools/esrecurse",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esrecurse\\README.md"
+  },
+  {
+    "name": "estraverse@5.3.0",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\estraverse",
+    "repository": "https://github.com/estools/estraverse",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\estraverse\\LICENSE.BSD"
+  },
+  {
+    "name": "esutils@2.0.3",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esutils",
+    "repository": "https://github.com/estools/esutils",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\esutils\\LICENSE.BSD"
+  },
+  {
+    "name": "fast-deep-equal@3.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-deep-equal",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-deep-equal\\LICENSE"
+  },
+  {
+    "name": "fast-glob@3.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-glob",
+    "repository": "https://github.com/mrmlnc/fast-glob",
+    "publisher": "Denis Malinochkin",
+    "url": "https://mrmlnc.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-glob\\LICENSE"
+  },
+  {
+    "name": "fast-glob@3.3.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\fast-glob",
+    "repository": "https://github.com/mrmlnc/fast-glob",
+    "publisher": "Denis Malinochkin",
+    "url": "https://mrmlnc.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\fast-glob\\LICENSE"
+  },
+  {
+    "name": "fast-json-stable-stringify@2.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-json-stable-stringify",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-json-stable-stringify\\LICENSE"
+  },
+  {
+    "name": "fast-levenshtein@2.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-levenshtein",
+    "repository": "https://github.com/hiddentao/fast-levenshtein",
+    "publisher": "Ramesh Nair",
+    "email": "ram@hiddentao.com",
+    "url": "http://www.hiddentao.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-levenshtein\\LICENSE.md"
+  },
+  {
+    "name": "fastq@1.19.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fastq",
+    "repository": "https://github.com/mcollina/fastq",
+    "publisher": "Matteo Collina",
+    "email": "hello@matteocollina.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fastq\\LICENSE"
+  },
+  {
+    "name": "fdir@6.4.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby\\node_modules\\fdir",
+    "repository": "https://github.com/thecodrr/fdir",
+    "publisher": "thecodrr",
+    "email": "thecodrr@protonmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby\\node_modules\\fdir\\LICENSE"
+  },
+  {
+    "name": "file-entry-cache@8.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\file-entry-cache",
+    "repository": "https://github.com/jaredwray/file-entry-cache",
+    "publisher": "Jared Wray",
+    "url": "https://jaredwray.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\file-entry-cache\\LICENSE"
+  },
+  {
+    "name": "fill-range@7.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fill-range",
+    "repository": "https://github.com/jonschlinkert/fill-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fill-range\\LICENSE"
+  },
+  {
+    "name": "find-up@5.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\find-up",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\find-up\\license"
+  },
+  {
+    "name": "flat-cache@4.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\flat-cache",
+    "repository": "https://github.com/jaredwray/flat-cache",
+    "publisher": "Jared Wray",
+    "url": "https://jaredwray.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\flat-cache\\LICENSE"
+  },
+  {
+    "name": "flatted@3.3.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\flatted",
+    "repository": "https://github.com/WebReflection/flatted",
+    "publisher": "Andrea Giammarchi",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\flatted\\LICENSE"
+  },
+  {
+    "name": "for-each@0.3.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\for-each",
+    "repository": "https://github.com/Raynos/for-each",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\for-each\\LICENSE"
+  },
+  {
+    "name": "foreground-child@3.3.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\foreground-child",
+    "repository": "https://github.com/tapjs/foreground-child",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\foreground-child\\LICENSE"
+  },
+  {
+    "name": "freedom-units@0.1.0",
+    "licenses": "UNLICENSED",
+    "path": ".",
+    "licenseFile": "README.md",
+    "private": true
+  },
+  {
+    "name": "fs.realpath@1.0.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fs.realpath",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fs.realpath\\LICENSE"
+  },
+  {
+    "name": "function-bind@1.1.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\function-bind",
+    "repository": "https://github.com/Raynos/function-bind",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\function-bind\\LICENSE"
+  },
+  {
+    "name": "function.prototype.name@1.1.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\function.prototype.name",
+    "repository": "https://github.com/es-shims/Function.prototype.name",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\function.prototype.name\\LICENSE"
+  },
+  {
+    "name": "functions-have-names@1.2.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\functions-have-names",
+    "repository": "https://github.com/inspect-js/functions-have-names",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\functions-have-names\\LICENSE"
+  },
+  {
+    "name": "get-intrinsic@1.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-intrinsic",
+    "repository": "https://github.com/ljharb/get-intrinsic",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-intrinsic\\LICENSE"
+  },
+  {
+    "name": "get-proto@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-proto",
+    "repository": "https://github.com/ljharb/get-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-proto\\LICENSE"
+  },
+  {
+    "name": "get-symbol-description@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-symbol-description",
+    "repository": "https://github.com/inspect-js/get-symbol-description",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-symbol-description\\LICENSE"
+  },
+  {
+    "name": "get-tsconfig@4.10.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-tsconfig",
+    "repository": "https://github.com/privatenumber/get-tsconfig",
+    "publisher": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\get-tsconfig\\LICENSE"
+  },
+  {
+    "name": "glob-parent@5.1.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-glob\\node_modules\\glob-parent",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\fast-glob\\node_modules\\glob-parent\\LICENSE"
+  },
+  {
+    "name": "glob-parent@6.0.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\glob-parent",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\glob-parent\\LICENSE"
+  },
+  {
+    "name": "glob@10.4.5",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\glob",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\glob\\LICENSE"
+  },
+  {
+    "name": "glob@7.2.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-package-json\\node_modules\\glob",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-package-json\\node_modules\\glob\\LICENSE"
+  },
+  {
+    "name": "globals@14.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\globals",
+    "repository": "https://github.com/sindresorhus/globals",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\globals\\license"
+  },
+  {
+    "name": "globalthis@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\globalthis",
+    "repository": "https://github.com/ljharb/System.global",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\globalthis\\LICENSE"
+  },
+  {
+    "name": "gopd@1.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\gopd",
+    "repository": "https://github.com/ljharb/gopd",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\gopd\\LICENSE"
+  },
+  {
+    "name": "graceful-fs@4.2.11",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\graceful-fs",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\graceful-fs\\LICENSE"
+  },
+  {
+    "name": "graphemer@1.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\graphemer",
+    "repository": "https://github.com/flmnt/graphemer",
+    "publisher": "Matt Davies",
+    "email": "matt@filament.so",
+    "url": "https://github.com/mattpauldavies",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\graphemer\\LICENSE"
+  },
+  {
+    "name": "has-bigints@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-bigints",
+    "repository": "https://github.com/ljharb/has-bigints",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-bigints\\LICENSE"
+  },
+  {
+    "name": "has-flag@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\has-flag",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\has-flag\\license"
+  },
+  {
+    "name": "has-flag@4.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-flag",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-flag\\license"
+  },
+  {
+    "name": "has-property-descriptors@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-property-descriptors",
+    "repository": "https://github.com/inspect-js/has-property-descriptors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-property-descriptors\\LICENSE"
+  },
+  {
+    "name": "has-proto@1.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-proto",
+    "repository": "https://github.com/inspect-js/has-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-proto\\LICENSE"
+  },
+  {
+    "name": "has-symbols@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-symbols",
+    "repository": "https://github.com/inspect-js/has-symbols",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-symbols\\LICENSE"
+  },
+  {
+    "name": "has-tostringtag@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-tostringtag",
+    "repository": "https://github.com/inspect-js/has-tostringtag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\has-tostringtag\\LICENSE"
+  },
+  {
+    "name": "hasown@2.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\hasown",
+    "repository": "https://github.com/inspect-js/hasOwn",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\hasown\\LICENSE"
+  },
+  {
+    "name": "hosted-git-info@2.8.9",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\hosted-git-info",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\hosted-git-info\\LICENSE"
+  },
+  {
+    "name": "ignore@5.3.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ignore",
+    "repository": "https://github.com/kaelzhang/node-ignore",
+    "publisher": "kael",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ignore\\LICENSE-MIT"
+  },
+  {
+    "name": "import-fresh@3.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\import-fresh",
+    "repository": "https://github.com/sindresorhus/import-fresh",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\import-fresh\\license"
+  },
+  {
+    "name": "imurmurhash@0.1.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\imurmurhash",
+    "repository": "https://github.com/jensyt/imurmurhash-js",
+    "publisher": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\imurmurhash\\README.md"
+  },
+  {
+    "name": "inflight@1.0.6",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\inflight",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\inflight\\LICENSE"
+  },
+  {
+    "name": "inherits@2.0.4",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\inherits",
+    "repository": "https://github.com/isaacs/inherits",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\inherits\\LICENSE"
+  },
+  {
+    "name": "internal-slot@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\internal-slot",
+    "repository": "https://github.com/ljharb/internal-slot",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\internal-slot\\LICENSE"
+  },
+  {
+    "name": "is-array-buffer@3.0.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-array-buffer",
+    "repository": "https://github.com/inspect-js/is-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-array-buffer\\LICENSE"
+  },
+  {
+    "name": "is-arrayish@0.3.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-arrayish",
+    "repository": "https://github.com/qix-/node-is-arrayish",
+    "publisher": "Qix",
+    "url": "http://github.com/qix-",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-arrayish\\LICENSE"
+  },
+  {
+    "name": "is-async-function@2.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-async-function",
+    "repository": "https://github.com/inspect-js/is-async-function",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-async-function\\LICENSE"
+  },
+  {
+    "name": "is-bigint@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-bigint",
+    "repository": "https://github.com/inspect-js/is-bigint",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-bigint\\LICENSE"
+  },
+  {
+    "name": "is-binary-path@2.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-binary-path",
+    "repository": "https://github.com/sindresorhus/is-binary-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-binary-path\\license"
+  },
+  {
+    "name": "is-boolean-object@1.2.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-boolean-object",
+    "repository": "https://github.com/inspect-js/is-boolean-object",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-boolean-object\\LICENSE"
+  },
+  {
+    "name": "is-bun-module@1.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-bun-module",
+    "repository": "https://github.com/SunsetTechuila/is-bun-module",
+    "publisher": "SunsetTechuila",
+    "email": "techuila.sunset@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-bun-module\\LICENSE"
+  },
+  {
+    "name": "is-callable@1.2.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-callable",
+    "repository": "https://github.com/inspect-js/is-callable",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-callable\\LICENSE"
+  },
+  {
+    "name": "is-core-module@2.16.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-core-module",
+    "repository": "https://github.com/inspect-js/is-core-module",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-core-module\\LICENSE"
+  },
+  {
+    "name": "is-data-view@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-data-view",
+    "repository": "https://github.com/inspect-js/is-data-view",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-data-view\\LICENSE"
+  },
+  {
+    "name": "is-date-object@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-date-object",
+    "repository": "https://github.com/inspect-js/is-date-object",
+    "publisher": "Jordan Harband",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-date-object\\LICENSE"
+  },
+  {
+    "name": "is-extglob@2.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-extglob",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-extglob\\LICENSE"
+  },
+  {
+    "name": "is-finalizationregistry@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-finalizationregistry",
+    "repository": "https://github.com/inspect-js/is-finalizationregistry",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-finalizationregistry\\LICENSE"
+  },
+  {
+    "name": "is-fullwidth-code-point@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-fullwidth-code-point",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-fullwidth-code-point\\license"
+  },
+  {
+    "name": "is-generator-function@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-generator-function",
+    "repository": "https://github.com/inspect-js/is-generator-function",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-generator-function\\LICENSE"
+  },
+  {
+    "name": "is-glob@4.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-glob",
+    "repository": "https://github.com/micromatch/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-glob\\LICENSE"
+  },
+  {
+    "name": "is-map@2.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-map",
+    "repository": "https://github.com/inspect-js/is-map",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-map\\LICENSE"
+  },
+  {
+    "name": "is-number-object@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-number-object",
+    "repository": "https://github.com/inspect-js/is-number-object",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-number-object\\LICENSE"
+  },
+  {
+    "name": "is-number@7.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-number",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-number\\LICENSE"
+  },
+  {
+    "name": "is-regex@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-regex",
+    "repository": "https://github.com/inspect-js/is-regex",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-regex\\LICENSE"
+  },
+  {
+    "name": "is-set@2.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-set",
+    "repository": "https://github.com/inspect-js/is-set",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-set\\LICENSE"
+  },
+  {
+    "name": "is-shared-array-buffer@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-shared-array-buffer",
+    "repository": "https://github.com/inspect-js/is-shared-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-shared-array-buffer\\LICENSE"
+  },
+  {
+    "name": "is-string@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-string",
+    "repository": "https://github.com/inspect-js/is-string",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-string\\LICENSE"
+  },
+  {
+    "name": "is-symbol@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-symbol",
+    "repository": "https://github.com/inspect-js/is-symbol",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-symbol\\LICENSE"
+  },
+  {
+    "name": "is-typed-array@1.1.15",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-typed-array",
+    "repository": "https://github.com/inspect-js/is-typed-array",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-typed-array\\LICENSE"
+  },
+  {
+    "name": "is-weakmap@2.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakmap",
+    "repository": "https://github.com/inspect-js/is-weakmap",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakmap\\LICENSE"
+  },
+  {
+    "name": "is-weakref@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakref",
+    "repository": "https://github.com/inspect-js/is-weakref",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakref\\LICENSE"
+  },
+  {
+    "name": "is-weakset@2.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakset",
+    "repository": "https://github.com/inspect-js/is-weakset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\is-weakset\\LICENSE"
+  },
+  {
+    "name": "isarray@2.0.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\isarray",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\isarray\\LICENSE"
+  },
+  {
+    "name": "isexe@2.0.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\isexe",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\isexe\\LICENSE"
+  },
+  {
+    "name": "iterator.prototype@1.1.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\iterator.prototype",
+    "repository": "https://github.com/ljharb/Iterator.prototype",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\iterator.prototype\\LICENSE"
+  },
+  {
+    "name": "jackspeak@3.4.3",
+    "licenses": "BlueOak-1.0.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jackspeak",
+    "repository": "https://github.com/isaacs/jackspeak",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jackspeak\\LICENSE.md"
+  },
+  {
+    "name": "jiti@1.21.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jiti",
+    "repository": "https://github.com/unjs/jiti",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jiti\\LICENSE"
+  },
+  {
+    "name": "js-tokens@4.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\js-tokens",
+    "repository": "https://github.com/lydell/js-tokens",
+    "publisher": "Simon Lydell",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\js-tokens\\LICENSE"
+  },
+  {
+    "name": "js-yaml@4.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\js-yaml",
+    "repository": "https://github.com/nodeca/js-yaml",
+    "publisher": "Vladimir Zapparov",
+    "email": "dervus.grim@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\js-yaml\\LICENSE"
+  },
+  {
+    "name": "json-buffer@3.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-buffer",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-buffer\\LICENSE"
+  },
+  {
+    "name": "json-parse-even-better-errors@2.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-parse-even-better-errors",
+    "repository": "https://github.com/npm/json-parse-even-better-errors",
+    "publisher": "Kat Marchán",
+    "email": "kzm@zkat.tech",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-parse-even-better-errors\\LICENSE.md"
+  },
+  {
+    "name": "json-schema-traverse@0.4.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-schema-traverse",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-schema-traverse\\LICENSE"
+  },
+  {
+    "name": "json-stable-stringify-without-jsonify@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-stable-stringify-without-jsonify",
+    "repository": "https://github.com/samn/json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json-stable-stringify-without-jsonify\\LICENSE"
+  },
+  {
+    "name": "json5@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json5",
+    "repository": "https://github.com/json5/json5",
+    "publisher": "Aseem Kishore",
+    "email": "aseem.kishore@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\json5\\LICENSE.md"
+  },
+  {
+    "name": "jsx-ast-utils@3.3.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jsx-ast-utils",
+    "repository": "https://github.com/jsx-eslint/jsx-ast-utils",
+    "publisher": "Ethan Cohen",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\jsx-ast-utils\\LICENSE.md"
+  },
+  {
+    "name": "keyv@4.5.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\keyv",
+    "repository": "https://github.com/jaredwray/keyv",
+    "publisher": "Jared Wray",
+    "email": "me@jaredwray.com",
+    "url": "http://jaredwray.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\keyv\\README.md"
+  },
+  {
+    "name": "language-subtag-registry@0.3.23",
+    "licenses": "CC0-1.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\language-subtag-registry",
+    "repository": "https://github.com/mattcg/language-subtag-registry",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\language-subtag-registry\\README.md"
+  },
+  {
+    "name": "language-tags@1.0.9",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\language-tags",
+    "repository": "https://github.com/mattcg/language-tags",
+    "publisher": "Matthew Caruana Galizia",
+    "email": "mattcg@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\language-tags\\README.md"
+  },
+  {
+    "name": "levn@0.4.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\levn",
+    "repository": "https://github.com/gkz/levn",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\levn\\LICENSE"
+  },
+  {
+    "name": "license-checker@25.0.1",
+    "licenses": "BSD-3-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker",
+    "repository": "https://github.com/davglass/license-checker",
+    "publisher": "Dav Glass",
+    "email": "davglass@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\LICENSE"
+  },
+  {
+    "name": "lilconfig@3.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lilconfig",
+    "repository": "https://github.com/antonk52/lilconfig",
+    "publisher": "antonk52",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lilconfig\\LICENSE"
+  },
+  {
+    "name": "lines-and-columns@1.2.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lines-and-columns",
+    "repository": "https://github.com/eventualbuddha/lines-and-columns",
+    "publisher": "Brian Donovan",
+    "email": "brian@donovans.cc",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lines-and-columns\\LICENSE"
+  },
+  {
+    "name": "locate-path@6.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\locate-path",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\locate-path\\license"
+  },
+  {
+    "name": "lodash.castarray@4.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.castarray",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.castarray\\LICENSE"
+  },
+  {
+    "name": "lodash.isplainobject@4.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.isplainobject",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.isplainobject\\LICENSE"
+  },
+  {
+    "name": "lodash.merge@4.6.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.merge",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lodash.merge\\LICENSE"
+  },
+  {
+    "name": "loose-envify@1.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\loose-envify",
+    "repository": "https://github.com/zertosh/loose-envify",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\loose-envify\\LICENSE"
+  },
+  {
+    "name": "lru-cache@10.4.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lru-cache",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\lru-cache\\LICENSE"
+  },
+  {
+    "name": "make-error@1.3.6",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\make-error",
+    "repository": "https://github.com/JsCommunity/make-error",
+    "publisher": "Julien Fontanet",
+    "email": "julien.fontanet@isonoe.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\make-error\\LICENSE"
+  },
+  {
+    "name": "math-intrinsics@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\math-intrinsics",
+    "repository": "https://github.com/es-shims/math-intrinsics",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\math-intrinsics\\LICENSE"
+  },
+  {
+    "name": "merge2@1.4.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\merge2",
+    "repository": "https://github.com/teambition/merge2",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\merge2\\LICENSE"
+  },
+  {
+    "name": "micromatch@4.0.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\micromatch",
+    "repository": "https://github.com/micromatch/micromatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\micromatch\\LICENSE"
+  },
+  {
+    "name": "minimatch@3.1.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minimatch",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minimatch\\LICENSE"
+  },
+  {
+    "name": "minimatch@9.0.5",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\minimatch",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\minimatch\\LICENSE"
+  },
+  {
+    "name": "minimist@1.2.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minimist",
+    "repository": "https://github.com/minimistjs/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minimist\\LICENSE"
+  },
+  {
+    "name": "minipass@7.1.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minipass",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\minipass\\LICENSE"
+  },
+  {
+    "name": "mkdirp@0.5.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\mkdirp",
+    "repository": "https://github.com/substack/node-mkdirp",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\mkdirp\\LICENSE"
+  },
+  {
+    "name": "ms@2.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ms",
+    "repository": "https://github.com/vercel/ms",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ms\\license.md"
+  },
+  {
+    "name": "mz@2.7.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\mz",
+    "repository": "https://github.com/normalize/mz",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\mz\\LICENSE"
+  },
+  {
+    "name": "nanoid@3.3.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\nanoid",
+    "repository": "https://github.com/ai/nanoid",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\nanoid\\LICENSE"
+  },
+  {
+    "name": "natural-compare@1.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\natural-compare",
+    "repository": "https://github.com/litejs/natural-compare-lite",
+    "publisher": "Lauri Rooden",
+    "url": "https://github.com/litejs/natural-compare-lite",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\natural-compare\\README.md"
+  },
+  {
+    "name": "next@15.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\next",
+    "repository": "https://github.com/vercel/next.js",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\next\\license.md"
+  },
+  {
+    "name": "nopt@4.0.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\nopt",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\nopt\\LICENSE"
+  },
+  {
+    "name": "normalize-package-data@2.5.0",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-package-data",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-package-data\\LICENSE"
+  },
+  {
+    "name": "normalize-path@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-path",
+    "repository": "https://github.com/jonschlinkert/normalize-path",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-path\\LICENSE"
+  },
+  {
+    "name": "npm-normalize-package-bin@1.0.1",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\npm-normalize-package-bin",
+    "repository": "https://github.com/npm/npm-normalize-package-bin",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\npm-normalize-package-bin\\LICENSE"
+  },
+  {
+    "name": "object-assign@4.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-assign",
+    "repository": "https://github.com/sindresorhus/object-assign",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-assign\\license"
+  },
+  {
+    "name": "object-hash@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-hash",
+    "repository": "https://github.com/puleos/object-hash",
+    "publisher": "Scott Puleo",
+    "email": "puleos@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-hash\\LICENSE"
+  },
+  {
+    "name": "object-inspect@1.13.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-inspect",
+    "repository": "https://github.com/inspect-js/object-inspect",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-inspect\\LICENSE"
+  },
+  {
+    "name": "object-keys@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-keys",
+    "repository": "https://github.com/ljharb/object-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object-keys\\LICENSE"
+  },
+  {
+    "name": "object.assign@4.1.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.assign",
+    "repository": "https://github.com/ljharb/object.assign",
+    "publisher": "Jordan Harband",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.assign\\LICENSE"
+  },
+  {
+    "name": "object.entries@1.1.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.entries",
+    "repository": "https://github.com/es-shims/Object.entries",
+    "publisher": "Jordan Harband",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.entries\\LICENSE"
+  },
+  {
+    "name": "object.fromentries@2.0.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.fromentries",
+    "repository": "https://github.com/es-shims/Object.fromEntries",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.fromentries\\LICENSE"
+  },
+  {
+    "name": "object.groupby@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.groupby",
+    "repository": "https://github.com/es-shims/Object.groupBy",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.groupby\\LICENSE"
+  },
+  {
+    "name": "object.values@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.values",
+    "repository": "https://github.com/es-shims/Object.values",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\object.values\\LICENSE"
+  },
+  {
+    "name": "once@1.4.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\once",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\once\\LICENSE"
+  },
+  {
+    "name": "optionator@0.9.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\optionator",
+    "repository": "https://github.com/gkz/optionator",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\optionator\\LICENSE"
+  },
+  {
+    "name": "os-homedir@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\os-homedir",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\os-homedir\\license"
+  },
+  {
+    "name": "os-tmpdir@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\os-tmpdir",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\os-tmpdir\\license"
+  },
+  {
+    "name": "osenv@0.1.5",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\osenv",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\osenv\\LICENSE"
+  },
+  {
+    "name": "own-keys@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\own-keys",
+    "repository": "https://github.com/ljharb/own-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\own-keys\\LICENSE"
+  },
+  {
+    "name": "p-limit@3.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\p-limit",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\p-limit\\license"
+  },
+  {
+    "name": "p-locate@5.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\p-locate",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\p-locate\\license"
+  },
+  {
+    "name": "package-json-from-dist@1.0.1",
+    "licenses": "BlueOak-1.0.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\package-json-from-dist",
+    "repository": "https://github.com/isaacs/package-json-from-dist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\package-json-from-dist\\LICENSE.md"
+  },
+  {
+    "name": "parent-module@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\parent-module",
+    "repository": "https://github.com/sindresorhus/parent-module",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\parent-module\\license"
+  },
+  {
+    "name": "path-exists@4.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-exists",
+    "repository": "https://github.com/sindresorhus/path-exists",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-exists\\license"
+  },
+  {
+    "name": "path-is-absolute@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-is-absolute",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-is-absolute\\license"
+  },
+  {
+    "name": "path-key@3.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-key",
+    "repository": "https://github.com/sindresorhus/path-key",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-key\\license"
+  },
+  {
+    "name": "path-parse@1.0.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-parse",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-parse\\LICENSE"
+  },
+  {
+    "name": "path-scurry@1.11.1",
+    "licenses": "BlueOak-1.0.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-scurry",
+    "repository": "https://github.com/isaacs/path-scurry",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\path-scurry\\LICENSE.md"
+  },
+  {
+    "name": "picocolors@1.1.1",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\picocolors",
+    "repository": "https://github.com/alexeyraspopov/picocolors",
+    "publisher": "Alexey Raspopov",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\picocolors\\LICENSE"
+  },
+  {
+    "name": "picomatch@2.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\picomatch",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\picomatch\\LICENSE"
+  },
+  {
+    "name": "picomatch@4.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby\\node_modules\\picomatch",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby\\node_modules\\picomatch\\LICENSE"
+  },
+  {
+    "name": "pify@2.3.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\pify",
+    "repository": "https://github.com/sindresorhus/pify",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\pify\\license"
+  },
+  {
+    "name": "pirates@4.0.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\pirates",
+    "repository": "https://github.com/danez/pirates",
+    "publisher": "Ari Porad",
+    "email": "ari@ariporad.com",
+    "url": "http://ariporad.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\pirates\\LICENSE"
+  },
+  {
+    "name": "possible-typed-array-names@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\possible-typed-array-names",
+    "repository": "https://github.com/ljharb/possible-typed-array-names",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\possible-typed-array-names\\LICENSE"
+  },
+  {
+    "name": "postcss-import@15.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-import",
+    "repository": "https://github.com/postcss/postcss-import",
+    "publisher": "Maxime Thirouin",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-import\\LICENSE"
+  },
+  {
+    "name": "postcss-js@4.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-js",
+    "repository": "https://github.com/postcss/postcss-js",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-js\\LICENSE"
+  },
+  {
+    "name": "postcss-load-config@4.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-load-config",
+    "repository": "https://github.com/postcss/postcss-load-config",
+    "publisher": "Michael Ciniawky",
+    "email": "michael.ciniawsky@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-load-config\\LICENSE"
+  },
+  {
+    "name": "postcss-nested@6.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-nested",
+    "repository": "https://github.com/postcss/postcss-nested",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-nested\\LICENSE"
+  },
+  {
+    "name": "postcss-selector-parser@6.0.10",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tailwindcss\\typography\\node_modules\\postcss-selector-parser",
+    "repository": "https://github.com/postcss/postcss-selector-parser",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\@tailwindcss\\typography\\node_modules\\postcss-selector-parser\\LICENSE-MIT"
+  },
+  {
+    "name": "postcss-selector-parser@6.1.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-selector-parser",
+    "repository": "https://github.com/postcss/postcss-selector-parser",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-selector-parser\\LICENSE-MIT"
+  },
+  {
+    "name": "postcss-value-parser@4.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-value-parser",
+    "repository": "https://github.com/TrySound/postcss-value-parser",
+    "publisher": "Bogdan Chadkin",
+    "email": "trysound@yandex.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss-value-parser\\LICENSE"
+  },
+  {
+    "name": "postcss@8.4.31",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\next\\node_modules\\postcss",
+    "repository": "https://github.com/postcss/postcss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\next\\node_modules\\postcss\\LICENSE"
+  },
+  {
+    "name": "postcss@8.5.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss",
+    "repository": "https://github.com/postcss/postcss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\postcss\\LICENSE"
+  },
+  {
+    "name": "prelude-ls@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\prelude-ls",
+    "repository": "https://github.com/gkz/prelude-ls",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\prelude-ls\\LICENSE"
+  },
+  {
+    "name": "prop-types@15.8.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\prop-types",
+    "repository": "https://github.com/facebook/prop-types",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\prop-types\\LICENSE"
+  },
+  {
+    "name": "punycode@2.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\punycode",
+    "repository": "https://github.com/mathiasbynens/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\punycode\\LICENSE-MIT.txt"
+  },
+  {
+    "name": "queue-microtask@1.2.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\queue-microtask",
+    "repository": "https://github.com/feross/queue-microtask",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\queue-microtask\\LICENSE"
+  },
+  {
+    "name": "react-dom@19.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react-dom",
+    "repository": "https://github.com/facebook/react",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react-dom\\LICENSE"
+  },
+  {
+    "name": "react-is@16.13.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react-is",
+    "repository": "https://github.com/facebook/react",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react-is\\LICENSE"
+  },
+  {
+    "name": "react@19.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react",
+    "repository": "https://github.com/facebook/react",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\react\\LICENSE"
+  },
+  {
+    "name": "read-cache@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-cache",
+    "repository": "https://github.com/TrySound/read-cache",
+    "publisher": "Bogdan Chadkin",
+    "email": "trysound@yandex.ru",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-cache\\LICENSE"
+  },
+  {
+    "name": "read-installed@4.0.3",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-installed",
+    "repository": "https://github.com/isaacs/read-installed",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-installed\\LICENSE"
+  },
+  {
+    "name": "read-package-json@2.1.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-package-json",
+    "repository": "https://github.com/npm/read-package-json",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\read-package-json\\LICENSE"
+  },
+  {
+    "name": "readdir-scoped-modules@1.1.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\readdir-scoped-modules",
+    "repository": "https://github.com/npm/readdir-scoped-modules",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\readdir-scoped-modules\\LICENSE"
+  },
+  {
+    "name": "readdirp@3.6.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\readdirp",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\readdirp\\LICENSE"
+  },
+  {
+    "name": "reflect.getprototypeof@1.0.10",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\reflect.getprototypeof",
+    "repository": "https://github.com/es-shims/Reflect.getPrototypeOf",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\reflect.getprototypeof\\LICENSE"
+  },
+  {
+    "name": "regexp.prototype.flags@1.5.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\regexp.prototype.flags",
+    "repository": "https://github.com/es-shims/RegExp.prototype.flags",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\regexp.prototype.flags\\LICENSE"
+  },
+  {
+    "name": "resolve-from@4.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve-from",
+    "repository": "https://github.com/sindresorhus/resolve-from",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve-from\\license"
+  },
+  {
+    "name": "resolve-pkg-maps@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve-pkg-maps",
+    "repository": "https://github.com/privatenumber/resolve-pkg-maps",
+    "publisher": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve-pkg-maps\\LICENSE"
+  },
+  {
+    "name": "resolve@1.22.10",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\resolve\\LICENSE"
+  },
+  {
+    "name": "resolve@2.0.0-next.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react\\node_modules\\resolve",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-react\\node_modules\\resolve\\LICENSE"
+  },
+  {
+    "name": "reusify@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\reusify",
+    "repository": "https://github.com/mcollina/reusify",
+    "publisher": "Matteo Collina",
+    "email": "hello@matteocollina.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\reusify\\LICENSE"
+  },
+  {
+    "name": "run-parallel@1.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\run-parallel",
+    "repository": "https://github.com/feross/run-parallel",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\run-parallel\\LICENSE"
+  },
+  {
+    "name": "safe-array-concat@1.1.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-array-concat",
+    "repository": "https://github.com/ljharb/safe-array-concat",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-array-concat\\LICENSE"
+  },
+  {
+    "name": "safe-push-apply@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-push-apply",
+    "repository": "https://github.com/ljharb/safe-push-apply",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-push-apply\\LICENSE"
+  },
+  {
+    "name": "safe-regex-test@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-regex-test",
+    "repository": "https://github.com/ljharb/safe-regex-test",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\safe-regex-test\\LICENSE"
+  },
+  {
+    "name": "scheduler@0.25.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\scheduler",
+    "repository": "https://github.com/facebook/react",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\scheduler\\LICENSE"
+  },
+  {
+    "name": "semver@5.7.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-package-data\\node_modules\\semver",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\normalize-package-data\\node_modules\\semver\\LICENSE"
+  },
+  {
+    "name": "semver@6.3.1",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-import\\node_modules\\semver",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\eslint-plugin-import\\node_modules\\semver\\LICENSE"
+  },
+  {
+    "name": "semver@7.7.1",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\semver",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\semver\\LICENSE"
+  },
+  {
+    "name": "set-function-length@1.2.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-function-length",
+    "repository": "https://github.com/ljharb/set-function-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-function-length\\LICENSE"
+  },
+  {
+    "name": "set-function-name@2.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-function-name",
+    "repository": "https://github.com/ljharb/set-function-name",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-function-name\\LICENSE"
+  },
+  {
+    "name": "set-proto@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-proto",
+    "repository": "https://github.com/ljharb/set-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\set-proto\\LICENSE"
+  },
+  {
+    "name": "sharp@0.33.5",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\sharp",
+    "repository": "https://github.com/lovell/sharp",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\sharp\\LICENSE"
+  },
+  {
+    "name": "shebang-command@2.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\shebang-command",
+    "repository": "https://github.com/kevva/shebang-command",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\shebang-command\\license"
+  },
+  {
+    "name": "shebang-regex@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\shebang-regex",
+    "repository": "https://github.com/sindresorhus/shebang-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\shebang-regex\\license"
+  },
+  {
+    "name": "side-channel-list@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-list",
+    "repository": "https://github.com/ljharb/side-channel-list",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-list\\LICENSE"
+  },
+  {
+    "name": "side-channel-map@1.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-map",
+    "repository": "https://github.com/ljharb/side-channel-map",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-map\\LICENSE"
+  },
+  {
+    "name": "side-channel-weakmap@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-weakmap",
+    "repository": "https://github.com/ljharb/side-channel-weakmap",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel-weakmap\\LICENSE"
+  },
+  {
+    "name": "side-channel@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel",
+    "repository": "https://github.com/ljharb/side-channel",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\side-channel\\LICENSE"
+  },
+  {
+    "name": "signal-exit@4.1.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\signal-exit",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\signal-exit\\LICENSE.txt"
+  },
+  {
+    "name": "simple-swizzle@0.2.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\simple-swizzle",
+    "repository": "https://github.com/qix-/node-simple-swizzle",
+    "publisher": "Qix",
+    "url": "http://github.com/qix-",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\simple-swizzle\\LICENSE"
+  },
+  {
+    "name": "slide@1.1.6",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\slide",
+    "repository": "https://github.com/isaacs/slide-flow-control",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\slide\\LICENSE"
+  },
+  {
+    "name": "source-map-js@1.2.1",
+    "licenses": "BSD-3-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\source-map-js",
+    "repository": "https://github.com/7rulnik/source-map-js",
+    "publisher": "Valentin 7rulnik Semirulnik",
+    "email": "v7rulnik@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\source-map-js\\LICENSE"
+  },
+  {
+    "name": "spdx-compare@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-compare",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-compare\\LICENSE.md"
+  },
+  {
+    "name": "spdx-correct@3.2.0",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-correct",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-correct\\LICENSE"
+  },
+  {
+    "name": "spdx-exceptions@2.5.0",
+    "licenses": "CC-BY-3.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-exceptions",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-exceptions\\README.md"
+  },
+  {
+    "name": "spdx-expression-parse@3.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-expression-parse",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-expression-parse\\LICENSE"
+  },
+  {
+    "name": "spdx-license-ids@3.0.21",
+    "licenses": "CC0-1.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-license-ids",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-license-ids\\README.md"
+  },
+  {
+    "name": "spdx-ranges@2.1.1",
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-ranges",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-ranges\\LICENSE.md"
+  },
+  {
+    "name": "spdx-satisfies@4.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-satisfies",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\spdx-satisfies\\LICENSE"
+  },
+  {
+    "name": "stable-hash@0.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\stable-hash",
+    "repository": "https://github.com/shuding/stable-hash",
+    "publisher": "Shu Ding",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\stable-hash\\README.md"
+  },
+  {
+    "name": "streamsearch@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\streamsearch",
+    "repository": "https://github.com/mscdex/streamsearch",
+    "publisher": "Brian White",
+    "email": "mscdex@mscdex.net",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\streamsearch\\LICENSE"
+  },
+  {
+    "name": "string-width@4.2.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\license"
+  },
+  {
+    "name": "string-width@5.1.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width\\license"
+  },
+  {
+    "name": "string.prototype.includes@2.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.includes",
+    "repository": "https://github.com/mathiasbynens/String.prototype.includes",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.includes\\LICENSE"
+  },
+  {
+    "name": "string.prototype.matchall@4.0.12",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.matchall",
+    "repository": "https://github.com/es-shims/String.prototype.matchAll",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.matchall\\LICENSE"
+  },
+  {
+    "name": "string.prototype.repeat@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.repeat",
+    "repository": "https://github.com/mathiasbynens/String.prototype.repeat",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.repeat\\LICENSE-MIT.txt"
+  },
+  {
+    "name": "string.prototype.trim@1.2.10",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trim",
+    "repository": "https://github.com/es-shims/String.prototype.trim",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trim\\LICENSE"
+  },
+  {
+    "name": "string.prototype.trimend@1.0.9",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trimend",
+    "repository": "https://github.com/es-shims/String.prototype.trimEnd",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trimend\\LICENSE"
+  },
+  {
+    "name": "string.prototype.trimstart@1.0.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trimstart",
+    "repository": "https://github.com/es-shims/String.prototype.trimStart",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string.prototype.trimstart\\LICENSE"
+  },
+  {
+    "name": "strip-ansi@6.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\strip-ansi",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\string-width-cjs\\node_modules\\strip-ansi\\license"
+  },
+  {
+    "name": "strip-ansi@7.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-ansi",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-ansi\\license"
+  },
+  {
+    "name": "strip-bom@3.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-bom",
+    "repository": "https://github.com/sindresorhus/strip-bom",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-bom\\license"
+  },
+  {
+    "name": "strip-json-comments@3.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-json-comments",
+    "repository": "https://github.com/sindresorhus/strip-json-comments",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\strip-json-comments\\license"
+  },
+  {
+    "name": "styled-jsx@5.1.6",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\styled-jsx",
+    "repository": "https://github.com/vercel/styled-jsx",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\styled-jsx\\license.md"
+  },
+  {
+    "name": "sucrase@3.35.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\sucrase",
+    "repository": "https://github.com/alangpierce/sucrase",
+    "publisher": "Alan Pierce",
+    "email": "alangpierce@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\sucrase\\LICENSE"
+  },
+  {
+    "name": "supports-color@5.5.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\supports-color",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\license-checker\\node_modules\\supports-color\\license"
+  },
+  {
+    "name": "supports-color@7.2.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\supports-color",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\supports-color\\license"
+  },
+  {
+    "name": "supports-preserve-symlinks-flag@1.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\supports-preserve-symlinks-flag",
+    "repository": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\supports-preserve-symlinks-flag\\LICENSE"
+  },
+  {
+    "name": "tailwindcss@3.4.17",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tailwindcss",
+    "repository": "https://github.com/tailwindlabs/tailwindcss",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tailwindcss\\LICENSE"
+  },
+  {
+    "name": "tapable@2.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tapable",
+    "repository": "https://github.com/webpack/tapable",
+    "publisher": "Tobias Koppers @sokra",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tapable\\LICENSE"
+  },
+  {
+    "name": "thenify-all@1.6.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\thenify-all",
+    "repository": "https://github.com/thenables/thenify-all",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\thenify-all\\LICENSE"
+  },
+  {
+    "name": "thenify@3.3.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\thenify",
+    "repository": "https://github.com/thenables/thenify",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\thenify\\LICENSE"
+  },
+  {
+    "name": "tinyglobby@0.2.12",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby",
+    "repository": "https://github.com/SuperchupuDev/tinyglobby",
+    "publisher": "Superchupu",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tinyglobby\\LICENSE"
+  },
+  {
+    "name": "to-regex-range@5.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\to-regex-range",
+    "repository": "https://github.com/micromatch/to-regex-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\to-regex-range\\LICENSE"
+  },
+  {
+    "name": "treeify@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\treeify",
+    "repository": "https://github.com/notatestuser/treeify",
+    "publisher": "Luke Plaster",
+    "email": "notatestuser@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\treeify\\LICENSE"
+  },
+  {
+    "name": "ts-api-utils@2.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-api-utils",
+    "repository": "https://github.com/JoshuaKGoldberg/ts-api-utils",
+    "publisher": "JoshuaKGoldberg",
+    "email": "npm@joshuakgoldberg.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-api-utils\\LICENSE.md"
+  },
+  {
+    "name": "ts-interface-checker@0.1.13",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-interface-checker",
+    "repository": "https://github.com/gristlabs/ts-interface-checker",
+    "publisher": "Dmitry S, Grist Labs",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-interface-checker\\LICENSE"
+  },
+  {
+    "name": "ts-node@10.9.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-node",
+    "repository": "https://github.com/TypeStrong/ts-node",
+    "publisher": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\ts-node\\LICENSE"
+  },
+  {
+    "name": "tsconfig-paths@3.15.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tsconfig-paths",
+    "repository": "https://github.com/dividab/tsconfig-paths",
+    "publisher": "Jonas Kello",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tsconfig-paths\\LICENSE"
+  },
+  {
+    "name": "tslib@2.8.1",
+    "licenses": "0BSD",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tslib",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\tslib\\LICENSE.txt"
+  },
+  {
+    "name": "type-check@0.4.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\type-check",
+    "repository": "https://github.com/gkz/type-check",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\type-check\\LICENSE"
+  },
+  {
+    "name": "typed-array-buffer@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-buffer",
+    "repository": "https://github.com/inspect-js/typed-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-buffer\\LICENSE"
+  },
+  {
+    "name": "typed-array-byte-length@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-byte-length",
+    "repository": "https://github.com/inspect-js/typed-array-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-byte-length\\LICENSE"
+  },
+  {
+    "name": "typed-array-byte-offset@1.0.4",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-byte-offset",
+    "repository": "https://github.com/inspect-js/typed-array-byte-offset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-byte-offset\\LICENSE"
+  },
+  {
+    "name": "typed-array-length@1.0.7",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-length",
+    "repository": "https://github.com/inspect-js/typed-array-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typed-array-length\\LICENSE"
+  },
+  {
+    "name": "typescript@5.7.3",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typescript",
+    "repository": "https://github.com/microsoft/TypeScript",
+    "publisher": "Microsoft Corp.",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\typescript\\LICENSE.txt"
+  },
+  {
+    "name": "unbox-primitive@1.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\unbox-primitive",
+    "repository": "https://github.com/ljharb/unbox-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\unbox-primitive\\LICENSE"
+  },
+  {
+    "name": "undici-types@6.19.8",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\undici-types",
+    "repository": "https://github.com/nodejs/undici",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\undici-types\\LICENSE"
+  },
+  {
+    "name": "uri-js@4.4.1",
+    "licenses": "BSD-2-Clause",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\uri-js",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\uri-js\\LICENSE"
+  },
+  {
+    "name": "util-deprecate@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\util-deprecate",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\util-deprecate\\LICENSE"
+  },
+  {
+    "name": "util-extend@1.0.3",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\util-extend",
+    "repository": "https://github.com/isaacs/util-extend",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\util-extend\\LICENSE"
+  },
+  {
+    "name": "v8-compile-cache-lib@3.0.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\v8-compile-cache-lib",
+    "repository": "https://github.com/cspotcode/v8-compile-cache-lib",
+    "publisher": "Andrew Bradley",
+    "email": "cspotcode@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\v8-compile-cache-lib\\LICENSE"
+  },
+  {
+    "name": "validate-npm-package-license@3.0.4",
+    "licenses": "Apache-2.0",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\validate-npm-package-license",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\validate-npm-package-license\\LICENSE"
+  },
+  {
+    "name": "which-boxed-primitive@1.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-boxed-primitive",
+    "repository": "https://github.com/inspect-js/which-boxed-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-boxed-primitive\\LICENSE"
+  },
+  {
+    "name": "which-builtin-type@1.2.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-builtin-type",
+    "repository": "https://github.com/inspect-js/which-builtin-type",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-builtin-type\\LICENSE"
+  },
+  {
+    "name": "which-collection@1.0.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-collection",
+    "repository": "https://github.com/inspect-js/which-collection",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-collection\\LICENSE"
+  },
+  {
+    "name": "which-typed-array@1.1.18",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-typed-array",
+    "repository": "https://github.com/inspect-js/which-typed-array",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which-typed-array\\LICENSE"
+  },
+  {
+    "name": "which@2.0.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\which\\LICENSE"
+  },
+  {
+    "name": "word-wrap@1.2.5",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\word-wrap",
+    "repository": "https://github.com/jonschlinkert/word-wrap",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\word-wrap\\LICENSE"
+  },
+  {
+    "name": "wrap-ansi@7.0.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi-cjs",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi-cjs\\license"
+  },
+  {
+    "name": "wrap-ansi@8.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrap-ansi\\license"
+  },
+  {
+    "name": "wrappy@1.0.2",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrappy",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\wrappy\\LICENSE"
+  },
+  {
+    "name": "yaml@2.7.0",
+    "licenses": "ISC",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yaml",
+    "repository": "https://github.com/eemeli/yaml",
+    "publisher": "Eemeli Aro",
+    "email": "eemeli@gmail.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yaml\\LICENSE"
+  },
+  {
+    "name": "yn@3.1.1",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yn",
+    "repository": "https://github.com/sindresorhus/yn",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yn\\license"
+  },
+  {
+    "name": "yocto-queue@0.1.0",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yocto-queue",
+    "repository": "https://github.com/sindresorhus/yocto-queue",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\yocto-queue\\license"
+  },
+  {
+    "name": "zod@3.24.2",
+    "licenses": "MIT",
+    "path": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\zod",
+    "repository": "https://github.com/colinhacks/zod",
+    "publisher": "Colin McDonnell",
+    "email": "colin@colinhacks.com",
+    "licenseFile": "C:\\Users\\darkn\\OneDrive\\Documents\\freedom-units\\node_modules\\zod\\LICENSE"
+  }
+]
