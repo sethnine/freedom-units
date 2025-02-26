@@ -60,9 +60,9 @@ export default function Home() {
     }
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center h-full space-y-4 ">
-      <div className="prose dark:prose-invert scale-150">
-        <h1 className="text-wrap">Freedom Units Calculator</h1>
+    <div className="flex flex-col items-center justify-center h-full w-full space-y-4 ">
+      <div className="prose dark:prose-invert md:scale-150 p-4">
+        <h1 className="block text-wrap">Freedom Units Calculator</h1>
         <label htmlFor="inputbox">Communist units (metres):</label>
         <input
           className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none"
