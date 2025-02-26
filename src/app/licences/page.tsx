@@ -1,10 +1,15 @@
-"use server";
 // const checker = require("license-checker");
 import * as checker from "license-checker";
 import { packageSchema } from "@/schema";
 import { z } from "zod";
 import { revalidateTag, unstable_cache } from "next/cache";
 import { FaGitAlt } from "react-icons/fa";
+
+export const revalidate = false;
+
+export async function generateStaticParams() {
+  return [];
+}
 
 const schema = z
   .record(z.string(), packageSchema)
@@ -19,8 +24,8 @@ const schema = z
     }))
   );
 async function getLicences() {
-  var pgs: z.infer<typeof schema> = [];
-  var done = false;
+  let pgs: z.infer<typeof schema> = [];
+  let done = false;
 
   checker.init(
     {
@@ -28,7 +33,7 @@ async function getLicences() {
       json: true,
       //   direct: true, // this is broken in the current version of license-checker
     },
-    (err: any, packages: any) => {
+    (err: Error, packages: unknown) => {
       if (err) {
         console.error(err);
         process.exit(1);
