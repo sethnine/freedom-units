@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const freedomUnits = [
@@ -35,7 +35,7 @@ export default function Home() {
     const freedoms = freedomUnits.reduce(
       (acc, unit) => {
         const unitsOfThisType = Math.floor(acc.remainingMetres / unit.value);
-        var freedomUnitsNew =
+        const freedomUnitsNew =
           unitsOfThisType === 0
             ? acc.freedomUnits
             : acc.freedomUnits +
@@ -43,7 +43,7 @@ export default function Home() {
               ": " +
               Math.floor(acc.remainingMetres / unit.value) +
               "\n";
-        var remainingMetres = metres % unit.value;
+        const remainingMetres = metres % unit.value;
         return {
           freedomUnits: freedomUnitsNew,
           remainingMetres: remainingMetres,
@@ -52,21 +52,27 @@ export default function Home() {
       { remainingMetres: metres, freedomUnits: "" }
     );
     setOutput(freedoms.freedomUnits);
-  }, [input]);
+  }, [input, freedomUnits]);
+
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  }, []);
   return (
     <div className="flex flex-col items-center justify-center h-full space-y-4 ">
       <div className="prose dark:prose-invert">
         <h1>Freedom Units Calculator</h1>
         <label htmlFor="inputbox">Communist units (metres):</label>
         <input
-          className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2"
+          className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none"
           type="text"
+          id="inputbox"
           name="inputbox"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button>Convert</button>
-        <pre>{output}</pre>
+        {output.length > 0 && <pre>{output}</pre>}
       </div>
     </div>
   );
