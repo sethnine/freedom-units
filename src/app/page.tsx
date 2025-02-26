@@ -1,101 +1,73 @@
-import Image from "next/image";
+"use client";
+
+import { use, useEffect, useState } from "react";
 
 export default function Home() {
+  const freedomUnits = [
+    { name: "Blue Whales", value: 22.0 }, // https://en.wikipedia.org/wiki/Blue_whale#:~:text=The%20average%20length,%5B53%5D
+    { name: "Football Fields", value: 110 }, // https://en.wikipedia.org/wiki/American_football_field#:~:text=The%20entire%20field%20is%20a%20rectangle%20360%20feet
+    { name: "School Busses", value: 13.7 }, // https://www.clrn.org/how-long-is-the-average-school-bus/
+    { name: "Washing Machines", value: 0.6 }, // AI
+    { name: "Aligators", value: 4.0 }, // https://en.wikipedia.org/wiki/Alligator#:~:text=An%20average%20adult%20American%20alligator%27s%20weight%20and%20length%20is%20360%C2%A0kg%20(790%C2%A0lb)%20and%204%C2%A0m
+    { name: "Light nanoseconds", value: 0.3 }, // https://www.wolframalpha.com/input?i=1+light+nanosecondhttps://en.wikipedia.org/wiki/Nanosecond#:~:text=The%20nanosecond%20is%20often%20used%20in%20measuring%20the%20time%20it%20takes%20light%20to%20travel%20a%20specified%20distance
+    { name: "Light picoseconds", value: 3e-4 }, // https://www.wolframalpha.com/input?i=1+light+picosecond
+    // Olympic-Sized Swimming Pools
+    { name: "Olympic-Sized Swimming Pools", value: 50 }, // https://en.wikipedia.org/wiki/Olympic-size_swimming_pool#:~:text=requires%20a%20course%20length%20of%2050%20metres
+    // Stones throws
+    { name: "Stones throws", value: 45.72 }, // https://www.reddit.com/r/theydidthemonstermath/comments/9ctu8s/if_an_average_human_throws_an_average_rock_as_far/
+    // Hairs breadths
+    { name: "Hairs breadths", value: 0.000075 }, // One nominal value often chosen is 75 micrometres
+  ]
+    .sort((a, b) => a.value - b.value)
+    .reverse();
+  const [input, setInput] = useState("");
+  const [output, setOutput] = useState("");
+  useEffect(() => {
+    if (input === "") {
+      setOutput("");
+      return;
+    }
+    const metres = parseFloat(input);
+    if (isNaN(metres)) {
+      setOutput("Invalid input");
+      return;
+    }
+    const freedoms = freedomUnits.reduce(
+      (acc, unit) => {
+        const unitsOfThisType = Math.floor(acc.remainingMetres / unit.value);
+        var freedomUnitsNew =
+          unitsOfThisType === 0
+            ? acc.freedomUnits
+            : acc.freedomUnits +
+              unit.name +
+              ": " +
+              Math.floor(acc.remainingMetres / unit.value) +
+              "\n";
+        var remainingMetres = metres % unit.value;
+        return {
+          freedomUnits: freedomUnitsNew,
+          remainingMetres: remainingMetres,
+        };
+      },
+      { remainingMetres: metres, freedomUnits: "" }
+    );
+    setOutput(freedoms.freedomUnits);
+  }, [input]);
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <div className="flex flex-col items-center justify-center h-full space-y-4 ">
+      <div className="prose dark:prose-invert">
+        <h1>Freedom Units Calculator</h1>
+        <label htmlFor="inputbox">Communist units (metres):</label>
+        <input
+          className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2"
+          type="text"
+          name="inputbox"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <button>Convert</button>
+        <pre>{output}</pre>
+      </div>
     </div>
   );
 }
