@@ -29,6 +29,7 @@ export function NavBar() {
       navigator.serviceWorker.register("/sw.js");
     }
   }, []);
+  const [menuLock, setMenuLock] = useState(false);
   return (
     <>
       <button
@@ -36,7 +37,13 @@ export function NavBar() {
         aria-label="Open Menu"
         onClick={() => setIsOpen(true)}
         onMouseDown={() => setIsOpen(true)}
-        onTouchStart={() => setIsOpen(true)}
+        onTouchStart={() => {
+          if (menuLock) return;
+          setMenuLock(true);
+          setTimeout(() => setMenuLock(false), 500);
+          setIsOpen(true);
+        }}
+        onTouchEnd={() => setMenuLock(false)}
       >
         <HiOutlineMenu size={48} />
       </button>
@@ -64,7 +71,13 @@ export function NavBar() {
               title="Close Menu"
               onClick={() => setIsOpen(false)}
               onMouseDown={() => setIsOpen(false)}
-              onTouchStart={() => setIsOpen(false)}
+              onTouchStart={() => {
+                if (menuLock) return;
+                setIsOpen(false);
+                setMenuLock(true);
+                setTimeout(() => setMenuLock(false), 500);
+              }}
+              onTouchEnd={() => setMenuLock(false)}
               className="cursor-pointer"
             >
               <HiOutlineMenuAlt2 size={48} />
@@ -89,19 +102,6 @@ export function NavBar() {
                 size={48}
               />
             </Link>
-          </li>
-          <li>
-            <button>
-              <IoReloadCircle
-                className="cursor-pointer"
-                id="reload-page"
-                aria-label="reload-page"
-                onClick={reloadPage}
-                onMouseDown={reloadPage}
-                onTouchStart={reloadPage}
-                size={48}
-              />
-            </button>
           </li>
           <li>
             <button>
