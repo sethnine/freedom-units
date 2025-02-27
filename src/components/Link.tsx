@@ -16,13 +16,22 @@ interface CustomLinkProps
 
 export default function Link({ href, children, ...props }: CustomLinkProps) {
   const router = useRouter();
-  const handleMouseDown = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleMouseDown = (
+    event:
+      | React.MouseEvent<HTMLAnchorElement>
+      | React.TouchEvent<HTMLAnchorElement>
+  ) => {
     console.log("Mouse down", event);
     event.preventDefault();
     router.push(href);
   };
   return (
-    <NextLink href={href} {...props} onMouseDown={handleMouseDown}>
+    <NextLink
+      href={href}
+      {...props}
+      onMouseDown={handleMouseDown}
+      onTouchStart={handleMouseDown}
+    >
       {children}
     </NextLink>
   );
