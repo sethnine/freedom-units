@@ -1,4 +1,3 @@
-"use server";
 import * as fs from "fs";
 import { FaGitAlt, FaGithub, FaPortrait } from "react-icons/fa";
 import { FaHouse } from "react-icons/fa6";
@@ -38,7 +37,7 @@ const parser = z.object({
       try {
         z.string().url().parse(r);
         return r;
-      } catch (error) {
+      } catch {
         return;
       }
     })
