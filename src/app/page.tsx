@@ -59,11 +59,6 @@ export default function Home() {
     setOutput(freedoms.freedomUnits);
   }, [input, freedomUnits]);
 
-  useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js");
-    }
-  }, []);
   return (
     <div className="flex flex-col items-center justify-center h-full w-full space-y-4 ">
       <div className="prose dark:prose-invert md:scale-150 p-4">

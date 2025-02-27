@@ -13,6 +13,17 @@ self.addEventListener("activate", (e) => {
   console.log("Service Worker Activated...");
 });
 
+self.addEventListener("message", async (e) => {
+  if (e.data !== "reload") {
+    console.warn("Message event ignored.", e);
+    return;
+  }
+  console.log("Reload requested");
+  // clear the cache
+  await caches.delete("static");
+  console.log("Cache cleared");
+});
+
 self.addEventListener("fetch", (e) => {
   if (e.type !== "fetch") {
     console.warn("Fetch event ignored.", e);
