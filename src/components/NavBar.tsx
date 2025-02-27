@@ -1,23 +1,48 @@
 "use client";
 import Link from "@/components/Link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaHome, FaScroll } from "react-icons/fa";
 import { HiOutlineMenu, HiOutlineMenuAlt2 } from "react-icons/hi";
+import { IoReloadCircle } from "react-icons/io5";
 
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  function reloadPage() {
+    console.log("reloading page");
+    if (!navigator.onLine) {
+      alert("No internet connection");
+      console.warn("No internet connection");
+      return;
+    }
+    console.log("a");
+    if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+      console.log("b");
+      navigator.serviceWorker.controller.postMessage("reload");
+      window.location.reload();
+      // navigator.serviceWorker.dispatchEvent(new Event("reload"));
+    } else window.location.reload();
+  }
+
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  }, []);
   return (
     <>
       <button
         className={"fixed top-0 left-0 p-4"}
         aria-label="Open Menu"
         onClick={() => setIsOpen(true)}
+        onMouseDown={() => setIsOpen(true)}
         onTouchStart={() => setIsOpen(true)}
       >
         <HiOutlineMenu size={48} />
       </button>
       <div
         onClick={() => setIsOpen(false)}
+        onMouseDown={() => setIsOpen(false)}
         aria-label="Close Menu"
         className={`fixed ${
           !isOpen ? "hidden" : ""
@@ -38,6 +63,7 @@ export function NavBar() {
               aria-label="Close Menu"
               title="Close Menu"
               onClick={() => setIsOpen(false)}
+              onMouseDown={() => setIsOpen(false)}
               onTouchStart={() => setIsOpen(false)}
               className="cursor-pointer"
             >
@@ -63,6 +89,19 @@ export function NavBar() {
                 size={48}
               />
             </Link>
+          </li>
+          <li>
+            <button>
+              <IoReloadCircle
+                className="cursor-pointer"
+                id="reload-page"
+                aria-label="reload-page"
+                onClick={reloadPage}
+                onMouseDown={reloadPage}
+                onTouchStart={reloadPage}
+                size={48}
+              />
+            </button>
           </li>
         </ul>
       </nav>
