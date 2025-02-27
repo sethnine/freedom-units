@@ -29,6 +29,28 @@ export function NavBar() {
       navigator.serviceWorker.register("/sw.js");
     }
   }, []);
+
+  function reloadPage() {
+    console.log("reloading page");
+    if (!navigator.onLine) {
+      alert("No internet connection");
+      console.warn("No internet connection");
+      return;
+    }
+    console.log("a");
+    if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+      console.log("b");
+      navigator.serviceWorker.controller.postMessage("reload");
+      window.location.reload();
+      // navigator.serviceWorker.dispatchEvent(new Event("reload"));
+    } else window.location.reload();
+  }
+
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  }, []);
   return (
     <>
       <button
@@ -36,12 +58,14 @@ export function NavBar() {
         aria-label="Open Menu"
         onClick={() => setIsOpen(true)}
         onMouseDown={() => setIsOpen(true)}
+        onMouseDown={() => setIsOpen(true)}
         onTouchStart={() => setIsOpen(true)}
       >
         <HiOutlineMenu size={48} />
       </button>
       <div
         onClick={() => setIsOpen(false)}
+        onMouseDown={() => setIsOpen(false)}
         onMouseDown={() => setIsOpen(false)}
         aria-label="Close Menu"
         className={`fixed ${
@@ -63,6 +87,7 @@ export function NavBar() {
               aria-label="Close Menu"
               title="Close Menu"
               onClick={() => setIsOpen(false)}
+              onMouseDown={() => setIsOpen(false)}
               onMouseDown={() => setIsOpen(false)}
               onTouchStart={() => setIsOpen(false)}
               className="cursor-pointer"
@@ -89,6 +114,19 @@ export function NavBar() {
                 size={48}
               />
             </Link>
+          </li>
+          <li>
+            <button>
+              <IoReloadCircle
+                className="cursor-pointer"
+                id="reload-page"
+                aria-label="reload-page"
+                onClick={reloadPage}
+                onMouseDown={reloadPage}
+                onTouchStart={reloadPage}
+                size={48}
+              />
+            </button>
           </li>
           <li>
             <button>
