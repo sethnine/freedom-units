@@ -7,24 +7,33 @@ import { HiOutlineMenu, HiOutlineMenuAlt2 } from "react-icons/hi";
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <>
       <button
         className={"fixed top-0 left-0 p-4"}
         aria-label="Open Menu"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(true)}
       >
         <HiOutlineMenu size={48} />
       </button>
+      <div
+        onClick={() => setIsOpen(false)}
+        aria-label="Close Menu"
+        className={`fixed ${
+          !isOpen ? "hidden" : ""
+        } top-0 left-0 w-full h-full`}
+      ></div>
+
       <nav
         className={
-          isOpen
-            ? "absolute transition-all duration-500 flex  -translate-x-0 flex-col h-full bg-red-500"
-            : "absolute transition-all duration-500  -translate-x-full flex-col h-full bg-red-500"
+          `fixed z-20 top-0 left-0 transition-all duration-500 flex ${
+            isOpen ? "-translate-x-0" : "-translate-x-full"
+          } flex-col h-full bg-red-500`
+          // "fixed z-20 top-0 left-0 transition-all duration-500 flex -translate-x-full flex-col h-full bg-red-500"
         }
       >
         <ul className="flex flex-col gap-4 p-4">
           <li>
-            <button onClick={() => setIsOpen(!isOpen)}>
+            <button onClick={() => setIsOpen(false)}>
               <HiOutlineMenuAlt2 size={48} />
             </button>
           </li>
@@ -50,6 +59,6 @@ export function NavBar() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }

@@ -35,10 +35,12 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col h-full`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col h-full overscroll-y-contain`}
       >
         <NavBar />
-        {children}
+        <div className="flex-1 flex flex-col justify-center items-center pt-[80px]">
+          {children}
+        </div>
       </body>
     </html>
   );

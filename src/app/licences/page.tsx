@@ -72,17 +72,22 @@ export default async function LicencesPage() {
     tags: ["licenses"],
   });
   const licences = await l();
+  const isDev = process.env.NODE_ENV === "development";
   return (
     <main className="p-2 flex flex-col align-center justify-center w-full gap-2 pb-16">
-      {process.env.NODE_ENV === "development" && (
-        <button
-          className="mx-2 p-1 bg-blue-500  rounded self-center"
-          onClick={invilidateCache}
-        >
-          Invalidate Cache
-        </button>
+      {isDev && (
+        <div>
+          <hr />
+          <button
+            className="mx-2 p-1 bg-blue-500  rounded self-center"
+            onClick={invilidateCache}
+          >
+            Invalidate Cache
+          </button>
+
+          <hr />
+        </div>
       )}
-      <hr />
       {licences.map((licence) => (
         <article className="md:w-1/2 w-full mx-2 md:mx-auto" key={licence.name}>
           <div>
