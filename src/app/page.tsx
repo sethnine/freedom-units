@@ -43,7 +43,12 @@ export default function Home() {
               ": " +
               Math.floor(acc.remainingMetres / unit.value) +
               "\n";
-        const remainingMetres = metres % unit.value;
+        let remainingMetres = metres % unit.value;
+        if (isNaN(remainingMetres)) {
+          // Infinity or NaN
+          remainingMetres = 0;
+        }
+
         return {
           freedomUnits: freedomUnitsNew,
           remainingMetres: remainingMetres,
@@ -65,7 +70,9 @@ export default function Home() {
         <h1 className="block text-wrap text-center">
           Freedom Units Calculator
         </h1>
-        <label htmlFor="inputbox">Communist units (metres):</label>
+        <label htmlFor="inputbox" typeof="number">
+          Communist units (metres):
+        </label>
         <input
           className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none"
           type="text"

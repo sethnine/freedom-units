@@ -33,7 +33,11 @@ export function NavBar() {
       >
         <ul className="flex flex-col gap-4 p-4">
           <li>
-            <button onClick={() => setIsOpen(false)}>
+            <button
+              aria-label="Close Menu"
+              title="Close Menu"
+              onClick={() => setIsOpen(false)}
+            >
               <HiOutlineMenuAlt2 size={48} />
             </button>
           </li>

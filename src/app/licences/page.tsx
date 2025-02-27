@@ -1,134 +1,179 @@
-// const checker = require("license-checker");
-import * as checker from "license-checker";
-import { packageSchema } from "@/schema";
+"use server";
+import * as fs from "fs";
+import { FaGitAlt, FaGithub, FaPortrait } from "react-icons/fa";
+import { FaHouse } from "react-icons/fa6";
 import { z } from "zod";
-import { revalidateTag, unstable_cache } from "next/cache";
-import { FaGitAlt } from "react-icons/fa";
+
+const packageJSONLocation = "./package.json";
+
+function recordsToArr(listName: string) {
+  return function (records: Record<string, string>) {
+    return Object.entries(records).map(([key, value]) => ({
+      fromList: listName,
+      name: key,
+      version: value,
+    }));
+  };
+}
+
+const parser = z.object({
+  name: z.string(),
+  version: z.string().optional(),
+  // private: z.boolean().optional(),
+  // scripts: z.record(z.string()).optional(),
+  homepage: z.string().url().optional(),
+  // contributors: z.array(z.string()).optional(),
+  repository: z
+    .any()
+    .transform((r) => {
+      if (typeof r === "string") {
+        return r;
+      }
+      if (typeof r === "object" && r.url) {
+        return r.url;
+      }
+      return;
+    })
+    .transform((r) => {
+      try {
+        z.string().url().parse(r);
+        return r;
+      } catch (error) {
+        return;
+      }
+    })
+    .optional(),
+  author: z.string().optional(),
+  description: z.string().optional(),
+  contributors: z.array(z.any()).optional(),
+
+  dependencies: z
+    .record(z.string())
+    .transform(recordsToArr("dependencies"))
+    .optional(),
+  devDependencies: z
+    .record(z.string())
+    .transform(recordsToArr("devDependencies"))
+    .optional(),
+  optionalDependencies: z
+    .record(z.string())
+    .transform(recordsToArr("optionalDependencies"))
+    .optional(),
+  peerDependencies: z
+    .record(z.string())
+    .transform(recordsToArr("peerDependencies"))
+    .optional(),
+  bundledDependencies: z
+    .record(z.string())
+    .transform(recordsToArr("bundledDependencies"))
+    .optional(),
+  license: z.string().optional(),
+});
+
+const parserWithStrip = parser.transform((data: z.infer<typeof parser>) => {
+  delete data.devDependencies;
+  delete data.version;
+  delete data.dependencies;
+  delete data.devDependencies;
+  delete data.optionalDependencies;
+  delete data.peerDependencies;
+  delete data.bundledDependencies;
+
+  delete data.contributors;
+  return {
+    fromList: undefined as string | undefined,
+    ...data,
+  };
+});
 
 export const revalidate = false;
-
 export async function generateStaticParams() {
   return [];
 }
 
-const schema = z
-  .record(z.string(), packageSchema)
-  .transform((data: Record<string, z.infer<typeof packageSchema>>) =>
-    Object.entries(data).map(([key, value]) => ({
-      name: key,
-      versionlessName:
-        key.split("@")[0].length - 1 === 0
-          ? key.split("@")[0]
-          : key.split("@").slice(0, -1).join("@"),
-      ...value,
-    }))
-  );
-async function getLicences() {
-  let pgs: z.infer<typeof schema> = [];
-  let done = false;
+export default async function licences() {
+  // get the licences
+  const packageJSON = fs.readFileSync(packageJSONLocation, "utf-8");
+  const packageJSONUnParsed = JSON.parse(packageJSON);
+  const packageJSONParsed = parser.parse(packageJSONUnParsed);
 
-  checker.init(
-    {
-      start: ".",
-      json: true,
-      //   direct: true, // this is broken in the current version of license-checker
-    },
-    (err: Error, packages: unknown) => {
-      if (err) {
-        console.error(err);
-        process.exit(1);
-      }
-      console.log("done");
-
-      pgs = schema.parse(packages);
-      done = true;
-    }
-  );
-  // wait for the checker to finish
-  while (!done) {
-    await new Promise((resolve) => setTimeout(resolve, 100));
+  if (!packageJSONParsed.dependencies) {
+    return <div>no dependencies</div>;
   }
 
-  return pgs;
-}
+  const allPackages = [
+    packageJSONParsed.dependencies,
+    packageJSONParsed.devDependencies,
+    packageJSONParsed.optionalDependencies,
+  ]
+    .filter((pl) => undefined !== pl)
+    .flat()
+    .map((dep) => {
+      const depName = dep.name;
+      const depPackageFileLocation = `./node_modules/${depName}/package.json`;
 
-// export async function GET() {
-//   const licenses = await unstable_cache(getLicenses, [], { revalidate: false });
-//   return NextResponse.json(await licenses());
-// }
+      const depPackageFile = fs.readFileSync(depPackageFileLocation, "utf-8");
+      const depPackageFileUnParsed = JSON.parse(depPackageFile);
 
-async function invilidateCache() {
-  "use server";
-  if (process.env.NODE_ENV !== "development") return;
-  revalidateTag("licenses");
-  return;
-}
+      const depPackageFileParsed = parserWithStrip.parse(
+        depPackageFileUnParsed
+      );
+      console.log(depPackageFileParsed.homepage);
 
-const showEmails = false;
+      return { ...depPackageFileParsed, fromList: dep.fromList };
+    });
 
-export default async function LicencesPage() {
-  const l = unstable_cache(getLicences, [], {
-    revalidate: false,
-    tags: ["licenses"],
-  });
-  const licences = await l();
-  const isDev = process.env.NODE_ENV === "development";
   return (
-    <main className="p-2 flex flex-col align-center justify-center w-full gap-2 pb-16">
-      {isDev && (
-        <div>
-          <hr />
-          <button
-            className="mx-2 p-1 bg-blue-500  rounded self-center"
-            onClick={invilidateCache}
-          >
-            Invalidate Cache
-          </button>
-
-          <hr />
-        </div>
-      )}
-      {licences.map((licence) => (
-        <article className="md:w-1/2 w-full mx-2 md:mx-auto" key={licence.name}>
+    <main className="flex p-6 flex-col align-center justify-center gap-2 pb-16 w-full">
+      <h1 className="text-6xl text-center">Licences used in this project:</h1>
+      {allPackages.map((licence) => (
+        <article className="md:w-1/2  w-full md:mx-auto" key={licence.name}>
           <div>
-            <h2 className="inline-block">{licence.versionlessName}</h2>{" "}
-            <p className="inline-block">
-              © <span>{licence.licenses}</span>
+            <h2 className="inline-block text-3xl ">{licence.name} © </h2>{" "}
+            <p className="inline-block text-3xl ">
+              <span>{licence.license}</span>
             </p>
           </div>
           {licence.repository && (
-            <a
-              href={licence.repository}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {licence.repository.startsWith("https://github.com") ? (
-                <FaGitAlt className="inline" />
-              ) : (
-                // if it's not a github link, just show the link
-                ""
-              )}
-              <span>{licence.repository}</span>
-            </a>
+            <div className="block overflow-clip truncate">
+              <a
+                href={licence.repository}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-nowrap text-xl"
+              >
+                {licence.repository.startsWith("https://github.com") ||
+                licence.repository.startsWith("http://github.com") ? (
+                  <FaGithub className="inline mr-2" />
+                ) : (
+                  <FaGitAlt className="inline mr-2" />
+                )}
+                {licence.repository.startsWith("https://github.com") ||
+                licence.repository.startsWith("http://github.com")
+                  ? licence.repository.split("github.com/")[1]
+                  : licence.repository}
+              </a>
+            </div>
           )}
-          {licence.publisher && (
-            <p>
-              {licence.publisher}{" "}
-              {licence.email && showEmails && (
-                <a
-                  href={`mailto:${licence.email}`}
-                  className="before:content-['<'] after:content-['>']"
-                >
-                  {licence.email}
-                </a>
-              )}
+          {licence.author && (
+            <p className="text-xl block">
+              <FaPortrait className="inline mr-2" />
+              {licence.author.split(" <")[0]}
             </p>
           )}
           {}
-          {licence.url && (
-            <a href={licence.url} target="_blank" rel="noopener noreferrer">
-              {licence.url}
-            </a>
+          {licence.homepage && (
+            <div className="block overflow-clip truncate">
+              <a
+                href={licence.homepage}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-nowrap text-xl"
+              >
+                <FaHouse className="inline mr-2" />
+                {licence.homepage}
+              </a>
+            </div>
           )}
         </article>
       ))}
