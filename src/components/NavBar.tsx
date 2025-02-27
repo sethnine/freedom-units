@@ -12,6 +12,7 @@ export function NavBar() {
         className={"fixed top-0 left-0 p-4"}
         aria-label="Open Menu"
         onClick={() => setIsOpen(true)}
+        onTouchStart={() => setIsOpen(true)}
       >
         <HiOutlineMenu size={48} />
       </button>
@@ -37,6 +38,8 @@ export function NavBar() {
               aria-label="Close Menu"
               title="Close Menu"
               onClick={() => setIsOpen(false)}
+              onTouchStart={() => setIsOpen(false)}
+              className="cursor-pointer"
             >
               <HiOutlineMenuAlt2 size={48} />
             </button>
