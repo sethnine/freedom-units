@@ -65,17 +65,19 @@ export default function Home() {
         <h1 className="block text-wrap text-center">
           Freedom Units Calculator
         </h1>
-        <label htmlFor="inputbox" typeof="number">
-          Communist units (metres):
-        </label>
-        <input
-          className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none"
-          type="text"
-          id="inputbox"
-          name="inputbox"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-        />
+        <div className="flex flex-row items-center justify-center space-x-4">
+          <label htmlFor="inputbox" typeof="number">
+            Communist units (metres):
+          </label>
+          <input
+            className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none p-2"
+            type="text"
+            id="inputbox"
+            name="inputbox"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+        </div>
         {output.length > 0 && <pre>{output}</pre>}
       </div>
     </div>
