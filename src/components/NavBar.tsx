@@ -1,6 +1,6 @@
 "use client";
 import Link from "@/components/Link";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaHome, FaScroll } from "react-icons/fa";
 import { HiOutlineMenu, HiOutlineMenuAlt2 } from "react-icons/hi";
 import { IoReloadCircle } from "react-icons/io5";
@@ -29,21 +29,29 @@ export function NavBar() {
       navigator.serviceWorker.register("/sw.js");
     }
   }, []);
-  const [menuLock, setMenuLock] = useState(false);
+  function openMenu(e: React.MouseEvent | React.TouchEvent) {
+    console.log("openMenu", e.type);
+    e.preventDefault();
+    setIsOpen(true);
+  }
+  function closeMenu(e: React.MouseEvent | React.TouchEvent) {
+    console.log("closeMenu", e.type);
+    e.preventDefault();
+    setIsOpen(false);
+  }
+  function preventDefault(e: React.MouseEvent | React.TouchEvent) {
+    e.preventDefault();
+  }
   return (
     <>
       <button
         className={"fixed top-0 left-0 p-4"}
         aria-label="Open Menu"
-        onClick={() => setIsOpen(true)}
-        onMouseDown={() => setIsOpen(true)}
-        onTouchStart={() => {
-          if (menuLock) return;
-          setMenuLock(true);
-          setTimeout(() => setMenuLock(false), 500);
-          setIsOpen(true);
-        }}
-        onTouchEnd={() => setMenuLock(false)}
+        // onClick={openMenu}
+        onMouseDown={openMenu}
+        onTouchStart={openMenu}
+        onTouchEnd={preventDefault}
+        onTouchCancel={preventDefault}
       >
         <HiOutlineMenu size={48} />
       </button>
@@ -69,15 +77,11 @@ export function NavBar() {
             <button
               aria-label="Close Menu"
               title="Close Menu"
-              onClick={() => setIsOpen(false)}
-              onMouseDown={() => setIsOpen(false)}
-              onTouchStart={() => {
-                if (menuLock) return;
-                setIsOpen(false);
-                setMenuLock(true);
-                setTimeout(() => setMenuLock(false), 500);
-              }}
-              onTouchEnd={() => setMenuLock(false)}
+              onClick={closeMenu}
+              onMouseDown={closeMenu}
+              onTouchStart={closeMenu}
+              onTouchCancel={preventDefault}
+              onTouchEnd={preventDefault}
               className="cursor-pointer"
             >
               <HiOutlineMenuAlt2 size={48} />
@@ -109,7 +113,7 @@ export function NavBar() {
                 className="cursor-pointer"
                 id="reload-page"
                 aria-label="reload-page"
-                onClick={reloadPage}
+                // onClick={reloadPage}
                 onMouseDown={reloadPage}
                 onTouchStart={reloadPage}
                 size={48}
