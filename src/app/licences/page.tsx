@@ -123,7 +123,7 @@ export default async function licences() {
     });
 
   return (
-    <main className="flex p-6 flex-col align-center justify-center gap-2 pb-16 w-full">
+    <main className="flex p-6 flex-col justify-center gap-2 pb-16 w-full md:pl-20">
       <h1 className="text-6xl text-center">Licences used in this project:</h1>
       {allPackages.map((licence) => (
         <article className="md:w-1/2  w-full md:mx-auto" key={licence.name}>

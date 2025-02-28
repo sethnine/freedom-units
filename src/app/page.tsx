@@ -27,7 +27,61 @@ export default function Home() {
       setOutput("");
       return;
     }
-    const metres = parseFloat(input);
+
+    enum unitType {
+      metric,
+      imperial,
+    }
+
+    const metricUnits = [
+      { name: "cm", value: 0.01, type: unitType.metric }, // centimetre
+      { name: "m", value: 1, type: unitType.metric }, // metre
+      { name: "km", value: 1000, type: unitType.metric }, // kilometre
+      { name: "mm", value: 0.001, type: unitType.metric }, // millimetre
+      { name: "μm", value: 0.000001, type: unitType.metric }, // micrometre
+      { name: "nm", value: 0.000000001, type: unitType.metric }, // nanometre
+      { name: "pm", value: 0.000000000001, type: unitType.metric }, // picometre
+      { name: "in", value: 0.0254, type: unitType.imperial }, // inch
+      { name: "ft", value: 0.3048, type: unitType.imperial }, // foot
+      { name: "yd", value: 0.9144, type: unitType.imperial }, // yard
+      { name: "mi", value: 1609.34, type: unitType.imperial }, // mile
+      { name: "nmi", value: 1852, type: unitType.imperial }, // nautical mile
+      { name: "ly", value: 9.461e15, type: unitType.metric }, // light-year
+    ];
+
+    const inputMatch = input.match(
+      /([-+]?([0-9]*[.])?[0-9]+([eE][-+]?\d+)?)\s*([a-zA-Z]*)?/
+    );
+
+    if (inputMatch === null) {
+      setOutput("Invalid input");
+      return;
+    }
+
+    const value = parseFloat(inputMatch[1]);
+
+    if (isNaN(value)) {
+      setOutput("Invalid input");
+      return;
+    }
+
+    const unit = inputMatch[4];
+
+    const metricMultiplier = metricUnits.find(
+      ({ name }) => name === unit
+    )?.value;
+    if (metricMultiplier === undefined) {
+      setOutput("Invalid unit");
+      return;
+    }
+    const metres = value * metricMultiplier;
+
+    if (metres === undefined) {
+      setOutput("Invalid input");
+      return;
+    }
+
+    parseFloat(input);
     if (isNaN(metres)) {
       setOutput("Invalid input");
       return;
@@ -60,18 +114,18 @@ export default function Home() {
   }, [input, freedomUnits]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-full w-full space-y-4 ">
-      <div className="prose dark:prose-invert md:scale-150 p-4">
-        <h1 className="block text-wrap text-center">
+    <div className="flex flex-col justify-center items-center w-full md:pl-20 duration-300 transition-transform">
+      <div className="prose dark:prose-invert p-4 w-full overflow-clip text-xl">
+        <h1 className="text-wrap text-center overflow-clip w-full">
           Freedom Units Calculator
         </h1>
-        <div className="flex flex-row items-center justify-center space-x-4">
+        <div className="flex md:flex-row flex-col gap-2 items-center justify-center">
           <label htmlFor="inputbox" typeof="number">
-            Communist units (metres):
+            Communist units:
           </label>
           <input
-            className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none p-2"
-            type="number"
+            className="bg-inherit text-inherit ring-black dark:ring-white ring rounded focus:outline-none p-2"
+            type="text"
             id="inputbox"
             name="inputbox"
             value={input}
