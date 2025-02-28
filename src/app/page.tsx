@@ -71,7 +71,7 @@ export default function Home() {
           </label>
           <input
             className="bg-inherit text-inherit ring-black dark:ring-white ring rounded mx-2 focus:outline-none p-2"
-            type="text"
+            type="number"
             id="inputbox"
             name="inputbox"
             value={input}
