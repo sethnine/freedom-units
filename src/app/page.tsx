@@ -34,9 +34,10 @@ export default function Home() {
     }
 
     const metricUnits = [
-      { name: "cm", value: 0.01, type: unitType.metric }, // centimetre
-      { name: "m", value: 1, type: unitType.metric }, // metre
       { name: "km", value: 1000, type: unitType.metric }, // kilometre
+      { name: "m", value: 1, type: unitType.metric }, // metre
+      { name: "dm", value: 0.1, type: unitType.metric }, // decimetre
+      { name: "cm", value: 0.01, type: unitType.metric }, // centimetre
       { name: "mm", value: 0.001, type: unitType.metric }, // millimetre
       { name: "μm", value: 0.000001, type: unitType.metric }, // micrometre
       { name: "nm", value: 0.000000001, type: unitType.metric }, // nanometre
@@ -66,10 +67,13 @@ export default function Home() {
     }
 
     const unit = inputMatch[4];
+    console.log({ unit });
 
-    const metricMultiplier = metricUnits.find(
-      ({ name }) => name === unit
-    )?.value;
+    const metricMultiplier =
+      unit === undefined
+        ? 1
+        : metricUnits.find(({ name }) => name === unit)?.value;
+
     if (metricMultiplier === undefined) {
       setOutput("Invalid unit");
       return;

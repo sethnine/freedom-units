@@ -15,9 +15,7 @@ export function NavBar() {
       console.warn("No internet connection");
       return;
     }
-    console.log("a");
     if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
-      console.log("b");
       navigator.serviceWorker.controller.postMessage("reload");
       window.location.reload();
       // navigator.serviceWorker.dispatchEvent(new Event("reload"));
@@ -30,12 +28,10 @@ export function NavBar() {
     }
   }, []);
   function openMenu(e: React.MouseEvent | React.TouchEvent) {
-    console.log("openMenu", e.type);
     e.preventDefault();
     setIsOpen(true);
   }
   function closeMenu(e: React.MouseEvent | React.TouchEvent) {
-    console.log("closeMenu", e.type);
     e.preventDefault();
     setIsOpen(false);
   }
